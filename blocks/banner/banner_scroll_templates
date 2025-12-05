@@ -79,7 +79,7 @@
       "gradient": null
     },
     {
-      "src": "https://github.com/hakeemnala/images/blob/main/banner_blocks/image_g_2.png",
+      "src": "https://raw.githubusercontent.com/hakeemnala/images/refs/heads/main/banner_blocks/image_g_2.png",
       "width": 310,
       "height": 210,
       "border_radius": 8,
