@@ -1,6 +1,133 @@
 [{
   "layout": "gradient_background",
   "title_config": {
+    "text": "بت باوز",
+    "title_style": {
+      "font_size": 30,
+      "font_weight": "w800",
+      "color": "#FF1B3A4B",
+      "letter_spacing": 1,
+      "font_family": "Roboto",
+      "text_shadow": {
+        "color": "#33FFFFFF",
+        "offsetX": 0,
+        "offsetY": 2,
+        "blur_radius": 6
+      },
+      "decoration": null
+    },
+    "animated_text_config": {
+      "animation_type": "fade",
+      "speed": 140,
+      "repeat_count": 0,
+      "pause_duration": 400,
+      "display_full_text_on_tap": true,
+      "stop_pause_on_tap": true,
+      "is_repeating_animation": false,
+      "repeat_forever": false,
+      "colors": []
+    },
+    "position": "center",
+    "show_title": true,
+    "height": null
+  },
+  "flexible_space_bar_title_config": null,
+  "background_color": "#FFE0F2F1",
+  "status_bar_color": "#FF00695C",
+  "foreground_color": "#FF1B3A4B",
+  "background_image": null,
+  "gradient_enabled": true,
+  "gradient_start_color": "#FF80CBC4",
+  "gradient_end_color": "#FF26A69A",
+  "gradient_begin": "topLeft",
+  "gradient_end": "bottomRight",
+  "drawer": true,
+  "drawer_icon": "Icons.pets",
+  "floating": false,
+  "pinned": true,
+  "snap": false,
+  "stretch": false,
+  "expanded_height": 190,
+  "search_bar": {
+    "enabled": true,
+    "placeholder": "ابحث في بت باوز...",
+    "icon": "Icons.search",
+    "barcode_scan": false,
+    "barcode_icon": "Icons.qr_code",
+    "background_color": "#E6FFFFFF",
+    "icon_color": "#FF00796B",
+    "border_radius": 20
+  },
+  "bottom": {
+    "enabled": false,
+    "preferred_size": 0,
+    "widget": "None",
+    "tab_bar": {
+      "enabled": false,
+      "is_scrollable": false,
+      "indicator_color": "#FFFFFFFF",
+      "indicator_weight": 2,
+      "indicator_size": "tab",
+      "label_color": "#FFFFFFFF",
+      "unselected_label_color": "#FFFFFFFF",
+      "tabs": []
+    }
+  },
+  "logo": true,
+  "logo_asset": "assets/petpaws_logo.png",
+  "barcode": false,
+  "border_radius": 20,
+  "actions": [
+    {
+      "title": "العروض",
+      "icon": "Icons.local_offer",
+      "navigation_route": {
+        "route": "offers",
+        "route_id": ""
+      },
+      "icon_color": "#FF1B3A4B"
+    },
+    {
+      "title": "الولاء",
+      "icon": "Icons.loyalty",
+      "navigation_route": {
+        "route": "loyalty",
+        "route_id": ""
+      },
+      "icon_color": "#FF1B3A4B"
+    },
+    {
+      "title": "السلة",
+      "icon": "Icons.shopping_cart",
+      "navigation_route": {
+        "route": "cart",
+        "route_id": ""
+      },
+      "icon_color": "#FF1B3A4B"
+    }
+  ],
+  "popup_menus": [],
+  "leading_icon": "Icons.arrow_back",
+  "center_title": true,
+  "clipper_config": {
+    "enabled": true,
+    "clipper_type": "wave",
+    "wave_height": 26,
+    "notch_count": null,
+    "notch_radius": null,
+    "zigzag_count": null,
+    "zigzag_height": null,
+    "stair_count": null,
+    "stair_height": null
+  },
+  "background_widget": null,
+  "collapse_mode": "pin",
+  "status_bar_icon_brightness": "Brightness.dark",
+  "status_bar_brightness": "Brightness.light"
+},
+{
+  "layout": "gradient_background",
+  "title_config": {
     "text": "سبورت فليكس",
     "title_style": {
       "font_size": 30,
