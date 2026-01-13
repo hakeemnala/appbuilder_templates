@@ -1,5 +1,298 @@
 [{
   "style": {
+    "background_color": "#FFF7FBF8",
+    "group_title_style": {
+      "font_size": 18,
+      "font_weight": "w800",
+      "color": "#FF064E3B",
+      "letter_spacing": 0.2,
+      "font_family": "Cairo",
+      "text_shadow": null,
+      "decoration": null
+    },
+    "group_desc_style": null,
+    "menu_title_style": {
+      "font_size": 16,
+      "font_weight": "w700",
+      "color": "#FF0F172A",
+      "letter_spacing": 0.1,
+      "font_family": "Cairo",
+      "text_shadow": null,
+      "decoration": null
+    },
+    "menu_desc_style": {
+      "font_size": 13,
+      "font_weight": "normal",
+      "color": "#FF475569",
+      "letter_spacing": 0,
+      "font_family": "Tajawal",
+      "text_shadow": null,
+      "decoration": null
+    },
+    "menu_icon_color": "#FF10B981",
+    "trailing_icon_color": "#FF6EE7B7",
+    "bottom_text": "الإصدار 13.0.0",
+    "social_links": [
+      {
+        "title": "لينكدإن",
+        "icon": "FontAwesomeIcons.linkedin",
+        "url": "https://linkedin.com",
+        "icon_color": "#FF0A66C2"
+      },
+      {
+        "title": "جيت هاب",
+        "icon": "FontAwesomeIcons.github",
+        "url": "https://github.com",
+        "icon_color": "#FF111827"
+      },
+      {
+        "title": "إنستغرام",
+        "icon": "FontAwesomeIcons.instagram",
+        "url": "https://instagram.com",
+        "icon_color": "#FFE1306C"
+      },
+      {
+        "title": "فيسبوك",
+        "icon": "FontAwesomeIcons.facebook",
+        "url": "https://facebook.com",
+        "icon_color": "#FF1877F2"
+      }
+    ],
+    "trailing_icon": "FluentIcons.chevron_left_24_regular"
+  },
+  "menu_groups": [
+    {
+      "title": "إدارة الحساب",
+      "items": [
+        {
+          "title": "الملف الشخصي",
+          "description": "إدارة بياناتك وتفضيلاتك",
+          "navigation_route": { "route": "profile", "route_id": "" },
+          "icon": "FluentIcons.person_24_regular",
+          "icon_color": "#FF10B981",
+          "trailing_icon": "FluentIcons.chevron_left_24_regular",
+          "trailing_icon_color": "#FF6EE7B7"
+        },
+        {
+          "title": "الطلبات",
+          "description": "مراجعة وتتبع طلباتك",
+          "navigation_route": { "route": "orders", "route_id": "" },
+          "icon": "FluentIcons.cart_24_filled",
+          "icon_color": "#FF10B981",
+          "trailing_icon": "FluentIcons.chevron_left_24_regular",
+          "trailing_icon_color": "#FF6EE7B7"
+        },
+        {
+          "title": "الاشتراك",
+          "description": "إدارة الاشتراك والمزايا",
+          "navigation_route": { "route": "subscriptions", "route_id": "" },
+          "icon": "FluentIcons.credit_card_person_24_regular",
+          "icon_color": "#FF10B981",
+          "trailing_icon": "FluentIcons.chevron_left_24_regular",
+          "trailing_icon_color": "#FF6EE7B7"
+        },
+        {
+          "title": "المحفظة",
+          "description": "عرض الرصيد والمعاملات وإضافة رصيد",
+          "navigation_route": { "route": "wallet", "route_id": "" },
+          "icon": "FluentIcons.wallet_24_regular",
+          "icon_color": "#FF10B981",
+          "trailing_icon": "FluentIcons.chevron_left_24_regular",
+          "trailing_icon_color": "#FF6EE7B7"
+        },
+        {
+          "title": "نقاط المكافآت",
+          "description": "اكسب النقاط واستخدمها في المشتريات",
+          "navigation_route": { "route": "reward_points", "route_id": "" },
+          "icon": "FluentIcons.ribbon_24_filled",
+          "icon_color": "#FF10B981",
+          "trailing_icon": "FluentIcons.chevron_left_24_regular",
+          "trailing_icon_color": "#FF6EE7B7"
+        }
+      ],
+      "banner": null
+    },
+    {
+      "title": "العروض والمزيد",
+      "items": [
+        {
+          "title": "ڤي آي بي مخملي",
+          "description": "عروض حصرية ومنتجات مميزة لأعضاء VIP",
+          "navigation_route": { "route": "product_page", "route_id": "101" },
+          "icon": "FluentIcons.diamond_24_regular",
+          "icon_color": "#FF10B981",
+          "trailing_icon": "FluentIcons.chevron_left_24_regular",
+          "trailing_icon_color": "#FF6EE7B7"
+        },
+        {
+          "title": "حذف الحساب",
+          "description": "إزالة بياناتك نهائيًا من المنصة",
+          "navigation_route": { "route": "delete_account", "route_id": "" },
+          "icon": "FluentIcons.delete_dismiss_24_regular",
+          "icon_color": "#FFEF4444",
+          "trailing_icon": "FluentIcons.chevron_left_24_regular",
+          "trailing_icon_color": "#FFFECDD3"
+        }
+      ],
+      "banner": null
+    },
+    {
+      "title": "القانونية والمساعدة",
+      "items": [
+        {
+          "title": "السياسات",
+          "description": "كيف ندير بيانات المستخدم ونحميها",
+          "navigation_route": { "route": "post", "route_id": "501" },
+          "icon": "FluentIcons.shield_person_24_filled",
+          "icon_color": "#FF10B981",
+          "trailing_icon": "FluentIcons.chevron_left_24_regular",
+          "trailing_icon_color": "#FF6EE7B7"
+        },
+        {
+          "title": "شروط الخدمة",
+          "description": "القواعد والإرشادات لاستخدام المنصة",
+          "navigation_route": { "route": "post", "route_id": "502" },
+          "icon": "FluentIcons.shield_lock_24_filled",
+          "icon_color": "#FF10B981",
+          "trailing_icon": "FluentIcons.chevron_left_24_regular",
+          "trailing_icon_color": "#FF6EE7B7"
+        },
+        {
+          "title": "مركز المساعدة",
+          "description": "الأسئلة الشائعة والدروس ومواد الدعم",
+          "navigation_route": { "route": "help_center", "route_id": "" },
+          "icon": "FluentIcons.chat_help_24_regular",
+          "icon_color": "#FF10B981",
+          "trailing_icon": "FluentIcons.chevron_left_24_regular",
+          "trailing_icon_color": "#FF6EE7B7"
+        },
+        {
+          "title": "تواصل معنا",
+          "description": "تواصل مع الدعم للحصول على مساعدة إضافية",
+          "navigation_route": { "route": "contactForm7", "route_id": "" },
+          "icon": "FluentIcons.mail_24_filled",
+          "icon_color": "#FF10B981",
+          "trailing_icon": "FluentIcons.chevron_left_24_regular",
+          "trailing_icon_color": "#FF6EE7B7"
+        }
+      ],
+      "banner": null
+    }
+  ],
+  "banner": null,
+  "layout": "Layout4",
+  "floating_action_button": {
+    "enabled": true,
+    "icon": "FlutterRemix.chat_3_line",
+    "icon_color": "#FFFFFFFF",
+    "background_color": "#FF10B981",
+    "position": "bottomRight",
+    "navigation_route": { "route": "help_center", "route_id": "" },
+    "elevation": 7,
+    "mini": false,
+    "foreground_color": null,
+    "is_extended": true,
+    "label": "محادثة الدعم"
+  },
+  "app_bar_config": {
+    "layout": "gradient_background",
+    "title_config": {
+      "text": "مركز الحساب",
+      "title_style": {
+        "font_size": 20,
+        "font_weight": "w800",
+        "color": "#FFFFFFFF",
+        "letter_spacing": 0.4,
+        "font_family": "Cairo",
+        "text_shadow": null,
+        "decoration": null
+      },
+      "animated_text_config": null,
+      "position": "center",
+      "show_title": true,
+      "height": null
+    },
+    "flexible_space_bar_title_config": null,
+    "background_color": null,
+    "status_bar_color": "#FF064E3B",
+    "foreground_color": "#FFFFFFFF",
+    "background_image": null,
+    "gradient_enabled": true,
+    "gradient_start_color": "#FF064E3B",
+    "gradient_end_color": "#FF10B981",
+    "gradient_begin": "topLeft",
+    "gradient_end": "bottomRight",
+    "drawer": false,
+    "drawer_icon": null,
+    "floating": false,
+    "pinned": true,
+    "snap": false,
+    "stretch": false,
+    "expanded_height": 108,
+    "search_bar": {
+      "enabled": true,
+      "placeholder": "ابحث عن العروض…",
+      "icon": "search",
+      "barcode_scan": false,
+      "barcode_icon": "barcode",
+      "background_color": "#1AFFFFFF",
+      "icon_color": "#FFFFFFFF",
+      "border_radius": 16
+    },
+    "bottom": { "enabled": false, "preferred_size": 44, "widget": "SearchBar", "tab_bar": null },
+    "logo": false,
+    "logo_asset": null,
+    "barcode": false,
+    "border_radius": 18,
+    "actions": [
+      {
+        "title": "الدعم",
+        "icon": "FluentIcons.chat_help_24_regular",
+        "navigation_route": { "route": "help_center", "route_id": "" },
+        "icon_color": "#FFFFFFFF"
+      }
+    ],
+    "popup_menus": [
+      {
+        "title": "السياسات",
+        "value": "policies",
+        "icon": "Icons.policy_outlined",
+        "navigation_route": { "route": "post", "route_id": "501" },
+        "icon_color": "#FFFFFFFF"
+      }
+    ],
+    "leading_icon": null,
+    "center_title": true,
+    "clipper_config": {
+      "enabled": true,
+      "clipper_type": "wavy_diagonal",
+      "wave_height": 14,
+      "notch_count": null,
+      "notch_radius": null,
+      "zigzag_count": null,
+      "zigzag_height": null,
+      "stair_count": null,
+      "stair_height": null
+    },
+    "background_widget": "AuroraGlow",
+    "collapse_mode": "none",
+    "status_bar_icon_brightness": "Brightness.dark",
+    "status_bar_brightness": "Brightness.dark"
+  },
+  "margin": { "top": 10, "bottom": 10, "left": 10, "right": 10 },
+  "padding": { "top": 16, "bottom": 16, "left": 16, "right": 16 },
+  "card_config": {
+    "color": "#FFFFFFFF",
+    "shadow_color": "#1A10B981",
+    "surface_tint_color": "#FFFFFFFF",
+    "elevation": 4,
+    "border_radius": 16,
+    "border_on_foreground": true,
+    "margin": { "top": 8, "bottom": 8, "left": 8, "right": 8 }
+  }
+},
+{
+  "style": {
     "background_color": "#FFF3E5F5",
     "group_title_style": {
       "font_size": 20,
