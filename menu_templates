@@ -1,5 +1,143 @@
 [{
   "style": {
+    "banner_image": "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=1200&auto=format&fit=crop",
+    "background_color": "#FF0A0E21",
+    "group_title_style": null,
+    "group_desc_style": null,
+    "menu_title_style": null,
+    "menu_desc_style": null,
+    "menu_icon_color": "#FF00E5FF",
+    "trailing_icon_color": "#FF00E5FF",
+    "bottom_text": "استوديو التصميم الرقمي v4.0.1",
+    "social_links": [
+      {
+        "title": "Instagram",
+        "icon": "FontAwesomeIcons.instagram",
+        "url": "https://instagram.com",
+        "icon_color": "#FF00E5FF"
+      },
+      {
+        "title": "Twitter",
+        "icon": "FontAwesomeIcons.twitter",
+        "url": "https://twitter.com",
+        "icon_color": "#FF00E5FF"
+      }
+    ]
+  },
+  "menu_groups": [
+    {
+      "title": "الإعدادات العامة",
+      "description": "تخصيص تجربة التطبيق",
+      "title_style": {
+        "font_size": 26,
+        "font_weight": "900",
+        "color": "#FFFFFFFF",
+        "font_family": "Cairo"
+      },
+      "items": [
+        {
+          "title": "اللغة",
+          "description": "اختر لغتك المفضلة",
+          "title_style": { "font_size": 19, "font_weight": "bold", "color": "#FF00E5FF" },
+          "description_style": { "font_size": 13, "color": "#FFD1D5DB" },
+          "icon": "FluentIcons.translate_24_filled",
+          "trailing_icon": "FluentIcons.chevron_left_24_regular",
+          "navigation_route": null
+        },
+        {
+          "title": "العملة",
+          "description": "تحديد عملة الدفع",
+          "title_style": { "font_size": 19, "font_weight": "bold", "color": "#FF00E5FF" },
+          "description_style": { "font_size": 13, "color": "#FFD1D5DB" },
+          "icon": "FluentIcons.money_24_filled",
+          "navigation_route": null
+        },
+        {
+          "title": "تسجيل الدخول",
+          "description": "الدخول إلى حسابك",
+          "title_style": { "font_size": 19, "font_weight": "bold", "color": "#FF00E5FF" },
+          "description_style": { "font_size": 13, "color": "#FFD1D5DB" },
+          "icon": "FluentIcons.lock_closed_24_filled",
+          "navigation_route": { "route": "login", "route_id": "" }
+        }
+      ]
+    },
+    {
+      "title": "مركز التسوق",
+      "items": [
+        {
+          "title": "طلباتي",
+          "description": "تتبع حالة المشاريع والشحنات",
+          "title_style": { "font_size": 19, "font_weight": "bold", "color": "#FF00E5FF" },
+          "description_style": { "font_size": 13, "color": "#FFD1D5DB" },
+          "icon": "FluentIcons.shopping_bag_24_filled",
+          "navigation_route": { "route": "orders", "route_id": "" }
+        },
+        {
+          "title": "المفضلة",
+          "description": "التصاميم التي أعجبتك",
+          "title_style": { "font_size": 19, "font_weight": "bold", "color": "#FF00E5FF" },
+          "description_style": { "font_size": 13, "color": "#FFD1D5DB" },
+          "icon": "FluentIcons.heart_24_filled",
+          "navigation_route": { "route": "products", "route_id": "" }
+        },
+        {
+          "title": "المحفظة",
+          "description": "إدارة الرصيد والمدفوعات",
+          "title_style": { "font_size": 19, "font_weight": "bold", "color": "#FF00E5FF" },
+          "description_style": { "font_size": 13, "color": "#FFD1D5DB" },
+          "icon": "FluentIcons.wallet_24_filled",
+          "navigation_route": { "route": "wallet", "route_id": "" }
+        },
+        {
+          "title": "نقاط المكافآت",
+          "description": "استبدال النقاط بهدايا",
+          "title_style": { "font_size": 19, "font_weight": "bold", "color": "#FF00E5FF" },
+          "description_style": { "font_size": 13, "color": "#FFD1D5DB" },
+          "icon": "FluentIcons.gift_card_24_filled",
+          "navigation_route": { "route": "rewardPoints", "route_id": "" }
+        }
+      ]
+    },
+    {
+      "title": "الدعم والمساعدة",
+      "items": [
+        {
+          "title": "تواصل معنا",
+          "description": "الدعم الفني المباشر",
+          "title_style": { "font_size": 19, "font_weight": "bold", "color": "#FF00E5FF" },
+          "description_style": { "font_size": 13, "color": "#FFD1D5DB" },
+          "icon": "FluentIcons.chat_help_24_filled",
+          "navigation_route": { "route": "support", "route_id": "" }
+        }
+      ]
+    }
+  ],
+  "banner": {
+    "src": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?q=80&w=1200&auto=format&fit=crop",
+    "width": 1200,
+    "height": 240,
+    "border_radius": 20,
+    "opacity": 1.0,
+    "padding": 10,
+    "alignment": "center"
+  },
+  "layout": "Layout2",
+  "zoom_drawer": {
+    "enabled": true,
+    "style": "DrawerStyle.defaultStyle",
+    "main_screen_scale": 0.15,
+    "slide_width": 290,
+    "border_radius": 50,
+    "angle": 0,
+    "is_rtl": true,
+    "menu_background_color": "#FF0A0E21",
+    "show_shadow": true,
+    "shadow_layer1_color": "#FF00E5FF"
+  }
+},
+  {
+  "style": {
     "banner_image": "https://images.unsplash.com/photo-1558655146-d09347e92766?q=80&w=1000&auto=format&fit=crop",
     "background_color": "#FFF5F5F7",
     "group_title_style": null,
