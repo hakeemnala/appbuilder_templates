@@ -1,5 +1,109 @@
 [{
   "style": {
+    "banner_image": "https://images.unsplash.com/photo-1558655146-d09347e92766?q=80&w=1000&auto=format&fit=crop",
+    "background_color": "#FFF5F5F7",
+    "group_title_style": null,
+    "group_desc_style": null,
+    "menu_title_style": null,
+    "menu_desc_style": null,
+    "menu_icon_color": "#FF212121",
+    "trailing_icon_color": "#FF757575",
+    "bottom_text": "إصدار ستوديو التصميم 4.0.1",
+    "social_links": [
+      {
+        "title": "إنستغرام",
+        "icon": "FontAwesomeIcons.instagram",
+        "url": "https://instagram.com",
+        "icon_color": "#FFC13584"
+      },
+      {
+        "title": "فيسبوك",
+        "icon": "FontAwesomeIcons.facebook",
+        "url": "https://facebook.com",
+        "icon_color": "#FF4267B2"
+      }
+    ]
+  },
+  "menu_groups": [
+    {
+      "title": "الحساب والإعدادات",
+      "description": null,
+      "title_style": {
+        "font_size": 26,
+        "font_weight": "bold",
+        "color": "#FF000000",
+        "font_family": "Cairo"
+      },
+      "items": [
+        {
+          "title": "تغيير اللغة",
+          "description": "العربية، English",
+          "title_style": { "font_size": 20, "font_weight": "bold", "color": "#FF212121" },
+          "description_style": { "font_size": 14, "color": "#FF616161" },
+          "icon": "FluentIcons.translate_24_regular",
+          "trailing_icon": "FluentIcons.chevron_left_24_regular",
+          "navigation_route": null
+        },
+        {
+          "title": "تسجيل الدخول",
+          "description": "ادخل لمتابعة تصاميمك",
+          "title_style": { "font_size": 20, "font_weight": "bold", "color": "#FF212121" },
+          "icon": "FluentIcons.person_24_regular",
+          "navigation_route": { "route": "login", "route_id": "" }
+        }
+      ]
+    },
+    {
+      "title": "أعمال التصميم",
+      "items": [
+        {
+          "title": "مشاريعي",
+          "description": "عرض تصاميمك الحالية",
+          "title_style": { "font_size": 20, "font_weight": "bold" },
+          "icon": "FluentIcons.drafts_24_regular",
+          "navigation_route": { "route": "orders", "route_id": "" }
+        },
+        {
+          "title": "معرض الصور",
+          "description": "إلهام من أعمالنا",
+          "title_style": { "font_size": 20, "font_weight": "bold" },
+          "icon": "FluentIcons.image_library_24_regular",
+          "navigation_route": { "route": "products", "route_id": "" }
+        },
+        {
+          "title": "المحفظة الرقمية",
+          "description": "إدارة الرصيد",
+          "title_style": { "font_size": 20, "font_weight": "bold" },
+          "icon": "FluentIcons.wallet_24_regular",
+          "navigation_route": { "route": "wallet", "route_id": "" }
+        }
+      ]
+    }
+  ],
+  "banner": {
+    "src": "https://images.unsplash.com/photo-1626785774573-4b799315345d?q=80&w=1200&auto=format&fit=crop",
+    "width": 1200,
+    "height": 250,
+    "border_radius": 15,
+    "opacity": 1,
+    "padding": 10,
+    "alignment": "center"
+  },
+  "layout": "Layout2",
+  "zoom_drawer": {
+    "enabled": true,
+    "style": "DrawerStyle.defaultStyle",
+    "main_screen_scale": 0.15,
+    "slide_width": 320,
+    "slide_height": 280,
+    "border_radius": 40,
+    "angle": 0,
+    "is_rtl": true,
+    "menu_background_color": "#FFF5F5F7"
+  }
+},
+  {
+  "style": {
     "banner_image": null,
     "background_color": "#FFF5F7FA",
     "group_title_style": {"font_size":18,"font_weight":"bold","color":"#FF0F3D57"},
