@@ -1,5 +1,298 @@
 [{
   "style": {
+    "background_color": "#FFF7FAFC",
+    "group_title_style": {
+      "font_size": 17,
+      "font_weight": "w700",
+      "color": "#FF0F172A",
+      "letter_spacing": 0.2,
+      "font_family": "Cairo",
+      "text_shadow": null,
+      "decoration": null
+    },
+    "group_desc_style": null,
+    "menu_title_style": {
+      "font_size": 16,
+      "font_weight": "w700",
+      "color": "#FF111827",
+      "letter_spacing": 0.1,
+      "font_family": "Cairo",
+      "text_shadow": null,
+      "decoration": null
+    },
+    "menu_desc_style": {
+      "font_size": 13,
+      "font_weight": "normal",
+      "color": "#FF64748B",
+      "letter_spacing": 0,
+      "font_family": "Tajawal",
+      "text_shadow": null,
+      "decoration": null
+    },
+    "menu_icon_color": "#FF2563EB",
+    "trailing_icon_color": "#FF93C5FD",
+    "bottom_text": "شوب إيزي v1.0 | تسوّق أسهل",
+    "social_links": [
+      {
+        "title": "إنستغرام",
+        "icon": "FontAwesomeIcons.instagram",
+        "url": "https://instagram.com/shopease",
+        "icon_color": "#FFE11D48"
+      },
+      {
+        "title": "فيسبوك",
+        "icon": "FontAwesomeIcons.facebook",
+        "url": "https://facebook.com/shopeasecommunity",
+        "icon_color": "#FF1877F2"
+      },
+      {
+        "title": "تحديثات تويتر",
+        "icon": "FontAwesomeIcons.twitter",
+        "url": "https://twitter.com/shopease",
+        "icon_color": "#FF1D9BF0"
+      }
+    ],
+    "trailing_icon": "FluentIcons.chevron_right_24_regular"
+  },
+  "menu_groups": [
+    {
+      "title": "حسابك",
+      "items": [
+        {
+          "title": "تسجيل الدخول",
+          "description": "الدخول إلى لوحة التحكم الخاصة بك",
+          "navigation_route": { "route": "auth_login", "route_id": "" },
+          "icon": "FluentIcons.person_circle_24_regular",
+          "icon_color": "#FF2563EB",
+          "trailing_icon": "FluentIcons.chevron_right_24_regular",
+          "trailing_icon_color": "#FF93C5FD"
+        },
+        {
+          "title": "إنشاء حساب",
+          "description": "انضم لتجربة شوب إيزي",
+          "navigation_route": { "route": "auth_register", "route_id": "" },
+          "icon": "FluentIcons.person_add_24_regular",
+          "icon_color": "#FF2563EB",
+          "trailing_icon": "FluentIcons.chevron_right_24_regular",
+          "trailing_icon_color": "#FF93C5FD"
+        },
+        {
+          "title": "سجل الطلبات",
+          "description": "عرض مشترياتك السابقة",
+          "navigation_route": { "route": "order_history", "route_id": "" },
+          "icon": "FluentIcons.shopping_bag_24_regular",
+          "icon_color": "#FF2563EB",
+          "trailing_icon": "FluentIcons.chevron_right_24_regular",
+          "trailing_icon_color": "#FF93C5FD"
+        }
+      ],
+      "banner": null
+    },
+    {
+      "title": "استكشف المنتجات",
+      "items": [
+        {
+          "title": "الأكثر مبيعًا",
+          "description": "اكتشف المنتجات الأكثر طلبًا",
+          "navigation_route": { "route": "bestsellers", "route_id": "" },
+          "icon": "FluentIcons.star_24_regular",
+          "icon_color": "#FF2563EB",
+          "trailing_icon": "FluentIcons.chevron_right_24_regular",
+          "trailing_icon_color": "#FF93C5FD"
+        },
+        {
+          "title": "مقترح لك",
+          "description": "اختيارات تناسب ذوقك",
+          "navigation_route": { "route": "recommendations", "route_id": "" },
+          "icon": "FluentIcons.heart_24_regular",
+          "icon_color": "#FF2563EB",
+          "trailing_icon": "FluentIcons.chevron_right_24_regular",
+          "trailing_icon_color": "#FF93C5FD"
+        },
+        {
+          "title": "عروض الخصومات",
+          "description": "صفقات لفترة محدودة",
+          "navigation_route": { "route": "discount_deals", "route_id": "" },
+          "icon": "FluentIcons.shopping_bag_percent_24_regular",
+          "icon_color": "#FF2563EB",
+          "trailing_icon": "FluentIcons.chevron_right_24_regular",
+          "trailing_icon_color": "#FF93C5FD"
+        }
+      ],
+      "banner": null
+    },
+    {
+      "title": "مساعدة العملاء",
+      "items": [
+        {
+          "title": "مركز المساعدة",
+          "description": "دعم وإرشادات في أي وقت",
+          "navigation_route": { "route": "help_center", "route_id": "" },
+          "icon": "FluentIcons.chat_help_24_regular",
+          "icon_color": "#FF2563EB",
+          "trailing_icon": "FluentIcons.chevron_right_24_regular",
+          "trailing_icon_color": "#FF93C5FD"
+        },
+        {
+          "title": "ملاحظاتك",
+          "description": "شاركنا رأيك لتحسين تجربتك",
+          "navigation_route": { "route": "feedback", "route_id": "" },
+          "icon": "FluentIcons.comment_24_regular",
+          "icon_color": "#FF2563EB",
+          "trailing_icon": "FluentIcons.chevron_right_24_regular",
+          "trailing_icon_color": "#FF93C5FD"
+        },
+        {
+          "title": "معلومات الشحن",
+          "description": "تعرّف على آلية التوصيل",
+          "navigation_route": { "route": "shipping_info", "route_id": "" },
+          "icon": "FluentIcons.box_24_regular",
+          "icon_color": "#FF2563EB",
+          "trailing_icon": "FluentIcons.chevron_right_24_regular",
+          "trailing_icon_color": "#FF93C5FD"
+        }
+      ],
+      "banner": null
+    },
+    {
+      "title": "اختصارات سريعة",
+      "items": [
+        {
+          "title": "الأقسام",
+          "description": "تصفح حسب الفئات",
+          "navigation_route": { "route": "categories", "route_id": "" },
+          "icon": "FluentIcons.grid_24_regular",
+          "icon_color": "#FF2563EB",
+          "trailing_icon": "FluentIcons.chevron_right_24_regular",
+          "trailing_icon_color": "#FF93C5FD"
+        },
+        {
+          "title": "المفضلة",
+          "description": "العناصر التي أعجبتك",
+          "navigation_route": { "route": "wishlist", "route_id": "" },
+          "icon": "FluentIcons.heart_24_filled",
+          "icon_color": "#FF2563EB",
+          "trailing_icon": "FluentIcons.chevron_right_24_regular",
+          "trailing_icon_color": "#FF93C5FD"
+        }
+      ],
+      "banner": null
+    }
+  ],
+  "banner": null,
+  "layout": "Layout2",
+  "floating_action_button": {
+    "enabled": true,
+    "icon": "FluentIcons.chat_48_filled",
+    "icon_color": "#FFFFFFFF",
+    "background_color": "#FF2563EB",
+    "position": "bottomRight",
+    "navigation_route": { "route": "support_live", "route_id": "" },
+    "elevation": 7,
+    "mini": false,
+    "foreground_color": null,
+    "is_extended": true,
+    "label": "مساعدة فورية"
+  },
+  "app_bar_config": {
+    "layout": "gradient_background",
+    "title_config": {
+      "text": "لوحة شوب إيزي",
+      "title_style": {
+        "font_size": 22,
+        "font_weight": "w800",
+        "color": "#FFFFFFFF",
+        "letter_spacing": 0.6,
+        "font_family": "Cairo",
+        "text_shadow": { "color": "#33000000", "offsetX": 1, "offsetY": 1, "blur_radius": 2 },
+        "decoration": null
+      },
+      "animated_text_config": null,
+      "position": "center",
+      "show_title": true,
+      "height": null
+    },
+    "flexible_space_bar_title_config": null,
+    "background_color": null,
+    "status_bar_color": "#FF0B1220",
+    "foreground_color": "#FFFFFFFF",
+    "background_image": null,
+    "gradient_enabled": true,
+    "gradient_start_color": "#FF1E3A8A",
+    "gradient_end_color": "#FF38BDF8",
+    "gradient_begin": "topLeft",
+    "gradient_end": "bottomRight",
+    "drawer": true,
+    "drawer_icon": "FluentIcons.list_24_regular",
+    "floating": false,
+    "pinned": true,
+    "snap": false,
+    "stretch": false,
+    "expanded_height": 112,
+    "search_bar": {
+      "enabled": true,
+      "placeholder": "ابحث عن المنتجات…",
+      "icon": "search",
+      "barcode_scan": false,
+      "barcode_icon": "barcode",
+      "background_color": "#F2FFFFFF",
+      "icon_color": "#FF1E3A8A",
+      "border_radius": 22
+    },
+    "bottom": { "enabled": false, "preferred_size": 44, "widget": "SearchBar", "tab_bar": null },
+    "logo": false,
+    "logo_asset": null,
+    "barcode": false,
+    "border_radius": 18,
+    "actions": [
+      {
+        "title": "السلة",
+        "icon": "FluentIcons.cart_24_regular",
+        "navigation_route": { "route": "cart", "route_id": "" },
+        "icon_color": "#FFFFFFFF"
+      }
+    ],
+    "popup_menus": [
+      {
+        "title": "الدعم",
+        "value": "support",
+        "icon": "Icons.help_outline",
+        "navigation_route": { "route": "help_center", "route_id": "" },
+        "icon_color": "#FFFFFFFF"
+      }
+    ],
+    "leading_icon": "FluentIcons.person_24_regular",
+    "center_title": true,
+    "clipper_config": {
+      "enabled": true,
+      "clipper_type": "zigzag",
+      "wave_height": 16,
+      "notch_count": null,
+      "notch_radius": null,
+      "zigzag_count": 18,
+      "zigzag_height": 12,
+      "stair_count": null,
+      "stair_height": null
+    },
+    "background_widget": "MeshGradient",
+    "collapse_mode": "parallax",
+    "status_bar_icon_brightness": "Brightness.dark",
+    "status_bar_brightness": "Brightness.dark"
+  },
+  "margin": null,
+  "padding": null,
+  "card_config": {
+    "color": "#FFFFFFFF",
+    "shadow_color": "#1A2563EB",
+    "surface_tint_color": "#FFF7FAFC",
+    "elevation": 5,
+    "border_radius": 18,
+    "border_on_foreground": true,
+    "margin": null
+  }
+},
+{
+  "style": {
     "background_color": "#FFF6F8FF",
     "group_title_style": {
       "font_size": 16,
