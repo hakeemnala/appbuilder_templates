@@ -1,6 +1,61 @@
 [{
   "name": "محايد احترافي",
   "style": {
+    "elevation": 14,
+    "type": "fixed",
+    "fixedColor": "#FF0B1220",
+    "backgroundColor": "#FF0B1220",
+    "iconSize": 28,
+    "selectedItemColor": "#FF22D3EE",
+    "unselectedItemColor": "#FF64748B",
+    "selectedFontSize": 13,
+    "unselectedFontSize": 12,
+    "showSelectedLabels": true,
+    "showUnselectedLabels": false,
+    "customNavigationType": "indicator",
+    "tabStyle": "pill"
+  },
+  "nav_items": [
+    {
+      "title": "الرئيسية",
+      "icon": "PhosphorIconsRegular.houseSimple",
+      "activeIcon": "PhosphorIconsDuotone.houseSimple",
+      "backgroundColor": "#FF0EA5A5",
+      "navigation_route": { "route": "home", "route_id": "" }
+    },
+    {
+      "title": "الأقسام",
+      "icon": "PhosphorIconsRegular.squaresFour",
+      "activeIcon": "PhosphorIconsDuotone.squaresFour",
+      "backgroundColor": "#FF2563EB",
+      "navigation_route": { "route": "categories_page", "route_id": "" }
+    },
+    {
+      "title": "طلباتي",
+      "icon": "PhosphorIconsRegular.receipt",
+      "activeIcon": "PhosphorIconsDuotone.receipt",
+      "backgroundColor": "#FF7C3AED",
+      "navigation_route": { "route": "orders", "route_id": "" }
+    },
+    {
+      "title": "السلة",
+      "icon": "PhosphorIconsRegular.shoppingCartSimple",
+      "activeIcon": "PhosphorIconsDuotone.shoppingCartSimple",
+      "backgroundColor": "#FFDC2626",
+      "navigation_route": { "route": "cart", "route_id": "" }
+    },
+    {
+      "title": "حسابي",
+      "icon": "PhosphorIconsRegular.userCircle",
+      "activeIcon": "PhosphorIconsDuotone.userCircle",
+      "backgroundColor": "#FFF59E0B",
+      "navigation_route": { "route": "account", "route_id": "" }
+    }
+  ]
+},
+{
+  "name": "محايد احترافي",
+  "style": {
     "elevation": 0,
     "type": "shifting",
     "fixedColor": "#FF0F172A",
