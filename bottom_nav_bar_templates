@@ -1,4 +1,52 @@
 [{
+  "name": "تنقّل التجارة الأنيق",
+  "style": {
+    "elevation": 5,
+    "type": "shifting",
+    "fixedColor": "#FF34495E",
+    "backgroundColor": "#FF34495E",
+    "iconSize": 26,
+    "selectedItemColor": "#FFE74C3C",
+    "unselectedItemColor": "#FFECF0F1",
+    "selectedFontSize": 16,
+    "unselectedFontSize": 14,
+    "showSelectedLabels": true,
+    "showUnselectedLabels": false,
+    "customNavigationType": "default",
+    "tabStyle": "reactCircle"
+  },
+  "nav_items": [
+    {
+      "title": "الرئيسية",
+      "icon": "FlutterRemix.home_line",
+      "activeIcon": "FlutterRemix.home_fill",
+      "backgroundColor": "#FFFFFFFF",
+      "navigation_route": { "route": "home", "route_id": "" }
+    },
+    {
+      "title": "العروض",
+      "icon": "FlutterRemix.fire_line",
+      "activeIcon": "FlutterRemix.fire_fill",
+      "backgroundColor": "#FFFFFFFF",
+      "navigation_route": { "route": "offers", "route_id": "" }
+    },
+    {
+      "title": "المفضلة",
+      "icon": "FlutterRemix.heart_line",
+      "activeIcon": "FlutterRemix.heart_fill",
+      "backgroundColor": "#FFFFFFFF",
+      "navigation_route": { "route": "products", "route_id": "" }
+    },
+    {
+      "title": "الملف الشخصي",
+      "icon": "FlutterRemix.user_2_line",
+      "activeIcon": "FlutterRemix.user_2_fill",
+      "backgroundColor": "#FFFFFFFF",
+      "navigation_route": { "route": "account", "route_id": "" }
+    }
+  ]
+},
+{
   "name": "النمط الكلاسيكي",
   "style": {
     "elevation": 4,
