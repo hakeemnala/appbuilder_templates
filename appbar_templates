@@ -124,8 +124,7 @@
   "collapse_mode": "pin",
   "status_bar_icon_brightness": "Brightness.dark",
   "status_bar_brightness": "Brightness.light"
-},
-{
+},{
   "layout": "gradient_background",
   "title_config": {
     "text": "سبورت فليكس",
