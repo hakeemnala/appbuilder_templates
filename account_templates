@@ -1,5 +1,190 @@
 [{
   "style": {
+    "background_color": "#FFF5F3EF",
+    "group_title_style": {
+      "font_size": 18,
+      "font_weight": "bold",
+      "color": "#FF1F4037",
+      "letter_spacing": 0.3,
+      "font_family": "Cairo",
+      "text_shadow": null,
+      "decoration": null
+    },
+    "group_desc_style": null,
+    "menu_title_style": {
+      "font_size": 16,
+      "font_weight": "w600",
+      "color": "#FF2D4A3E",
+      "letter_spacing": 0.1,
+      "font_family": "Cairo",
+      "text_shadow": null,
+      "decoration": null
+    },
+    "menu_desc_style": {
+      "font_size": 14,
+      "font_weight": "normal",
+      "color": "#FF7A8B84",
+      "letter_spacing": 0,
+      "font_family": "Cairo",
+      "text_shadow": null,
+      "decoration": null
+    },
+    "menu_icon_color": "#FF1F4037",
+    "trailing_icon_color": "#FFB8A46D",
+    "bottom_text": "الإصدار 4.1.0",
+    "social_links": [
+      { "title": "لينكدإن", "icon": "FontAwesomeIcons.linkedin", "url": "https://linkedin.com", "icon_color": "#FF0077B5" },
+      { "title": "جيت هاب", "icon": "FontAwesomeIcons.github", "url": "https://github.com", "icon_color": "#FF222222" },
+      { "title": "إنستغرام", "icon": "FontAwesomeIcons.instagram", "url": "https://instagram.com", "icon_color": "#FFE1306C" },
+      { "title": "فيسبوك", "icon": "FontAwesomeIcons.facebook", "url": "https://facebook.com", "icon_color": "#FF3B5998" },
+      { "title": "تويتر", "icon": "FontAwesomeIcons.twitter", "url": "https://twitter.com", "icon_color": "#FF1DA1F2" },
+      { "title": "بينتريست", "icon": "FontAwesomeIcons.pinterest", "url": "https://pinterest.com", "icon_color": "#FFE60023" }
+    ],
+    "trailing_icon": null
+  },
+
+  "menu_groups": [
+    {
+      "title": "الحساب",
+      "items": [
+        {
+          "title": "تسجيل الدخول",
+          "description": "الدخول إلى حسابك",
+          "navigation_route": { "route": "login", "route_id": "" },
+          "icon": "CupertinoIcons.person",
+          "icon_color": "#FF1F4037",
+          "trailing_icon": "Icons.arrow_forward_ios",
+          "trailing_icon_color": "#FFB8A46D"
+        },
+        {
+          "title": "إنشاء حساب",
+          "description": "إنشاء حساب جديد",
+          "navigation_route": { "route": "register", "route_id": "" },
+          "icon": "CupertinoIcons.person_add",
+          "icon_color": "#FF388E3C",
+          "trailing_icon": "Icons.arrow_forward_ios",
+          "trailing_icon_color": "#FFAED581"
+        },
+        {
+          "title": "المفضلة",
+          "description": "عرض المنتجات المفضلة",
+          "navigation_route": { "route": "wishlist", "route_id": "" },
+          "icon": "CupertinoIcons.heart",
+          "icon_color": "#FFD81B60",
+          "trailing_icon": "Icons.arrow_forward_ios",
+          "trailing_icon_color": "#FFF48FB1"
+        },
+        {
+          "title": "الطلبات",
+          "description": "متابعة حالة الطلبات",
+          "navigation_route": { "route": "orders", "route_id": "" },
+          "icon": "CupertinoIcons.bookmark",
+          "icon_color": "#FF1F4037",
+          "trailing_icon": "Icons.arrow_forward_ios",
+          "trailing_icon_color": "#FF80CBC4"
+        },
+        {
+          "title": "المحفظة",
+          "description": "عرض رصيد المحفظة",
+          "navigation_route": { "route": "wallet", "route_id": "" },
+          "icon": "CupertinoIcons.creditcard",
+          "icon_color": "#FF0277BD",
+          "trailing_icon": "Icons.arrow_forward_ios",
+          "trailing_icon_color": "#FF81D4FA"
+        },
+        {
+          "title": "المكافآت",
+          "description": "عرض نقاط المكافآت",
+          "navigation_route": { "route": "rewards", "route_id": "" },
+          "icon": "CupertinoIcons.gift",
+          "icon_color": "#FFF9A825",
+          "trailing_icon": "Icons.arrow_forward_ios",
+          "trailing_icon_color": "#FFFFE082"
+        },
+        {
+          "title": "سياسة الخصوصية",
+          "description": "قراءة سياسة الخصوصية",
+          "navigation_route": { "route": "post", "route_id": "1" },
+          "icon": "CupertinoIcons.book",
+          "icon_color": "#FF5E35B1",
+          "trailing_icon": "Icons.arrow_forward_ios",
+          "trailing_icon_color": "#FFD1C4E9"
+        },
+        {
+          "title": "الشروط والأحكام",
+          "description": "عرض الشروط والأحكام",
+          "navigation_route": { "route": "post", "route_id": "1" },
+          "icon": "CupertinoIcons.doc_plaintext",
+          "icon_color": "#FF6A1B9A",
+          "trailing_icon": "Icons.arrow_forward_ios",
+          "trailing_icon_color": "#FFE1BEE7"
+        },
+        {
+          "title": "حذف الحساب",
+          "description": "إغلاق الحساب نهائياً",
+          "navigation_route": { "route": "delete_account", "route_id": "" },
+          "icon": "CupertinoIcons.collections",
+          "icon_color": "#FFD84315",
+          "trailing_icon": "Icons.arrow_forward_ios",
+          "trailing_icon_color": "#FFFFAB91"
+        }
+      ],
+      "banner": {
+        "src": "https://images.unsplash.com/photo-1618220179428-22790b461013",
+        "width": 1200,
+        "height": 140,
+        "border_radius": 16,
+        "opacity": 1.0,
+        "padding": 14,
+        "alignment": "center",
+        "box_shadow": "0px 8px 18px rgba(0,0,0,0.10)",
+        "margin": 14,
+        "background_gradient": "linear-gradient(135deg, #1F4037, #B89B5E)",
+        "overlay_text_config": null,
+        "animation": "fade",
+        "navigation_route": null
+      }
+    }
+  ],
+
+  "layout": "Layout2",
+
+  "app_bar_config": {
+    "layout": "minimalistic",
+    "background_color": "#FF1F4037",
+    "foreground_color": "#FFFFFFFF",
+    "gradient_enabled": true,
+    "gradient_start_color": "#FF1F4037",
+    "gradient_end_color": "#FFB89B5E",
+    "gradient_begin": "centerRight",
+    "gradient_end": "centerLeft",
+    "drawer": true,
+    "expanded_height": 64,
+    "search_bar": {
+      "enabled": true,
+      "placeholder": "بحث",
+      "icon": "search",
+      "barcode_scan": false,
+      "border_radius": 20
+    },
+    "border_radius": 18,
+    "clipper_config": {
+      "enabled": true,
+      "clipper_type": "rounded"
+    },
+    "background_widget": null,
+    "status_bar_icon_brightness": "Brightness.light",
+    "status_bar_brightness": "Brightness.dark"
+  },
+
+  "margin": null,
+  "padding": null,
+  "card_config": null,
+  "floating_action_button": null,
+  "banner": null
+},
+{
+  "style": {
     "background_color": "#FFF7FBF8",
     "group_title_style": {
       "font_size": 18,
