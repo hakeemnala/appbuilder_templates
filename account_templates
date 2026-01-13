@@ -1,5 +1,324 @@
 [{
   "style": {
+    "background_color": "#FFF3F7F6",
+    "group_title_style": {
+      "font_size": 15,
+      "font_weight": "w800",
+      "color": "#FF0F766E",
+      "letter_spacing": 0.25,
+      "font_family": "Cairo",
+      "text_shadow": null,
+      "decoration": null
+    },
+    "group_desc_style": null,
+    "menu_title_style": {
+      "font_size": 17,
+      "font_weight": "w700",
+      "color": "#FF0F172A",
+      "letter_spacing": 0.1,
+      "font_family": "Cairo",
+      "text_shadow": null,
+      "decoration": null
+    },
+    "menu_desc_style": {
+      "font_size": 14,
+      "font_weight": "normal",
+      "color": "#FF475569",
+      "letter_spacing": 0,
+      "font_family": "Tajawal",
+      "text_shadow": null,
+      "decoration": null
+    },
+    "menu_icon_color": "#FF0F766E",
+    "trailing_icon_color": "#FF5EEAD4",
+    "bottom_text": "الإصدار 3.3.0 • نَفَس مُنعش",
+    "social_links": [
+      {
+        "title": "دعم واتساب",
+        "icon": "FontAwesomeIcons.whatsapp",
+        "url": "https://wa.me/123456789",
+        "icon_color": "#FF25D366"
+      },
+      {
+        "title": "إنستغرام",
+        "icon": "FontAwesomeIcons.instagram",
+        "url": "https://instagram.com",
+        "icon_color": "#FFE1306C"
+      },
+      {
+        "title": "تراست بايلوت",
+        "icon": "FontAwesomeIcons.star",
+        "url": "https://trustpilot.com",
+        "icon_color": "#FF00B67A"
+      }
+    ],
+    "trailing_icon": null
+  },
+  "menu_groups": [
+    {
+      "title": "إجراءات سريعة",
+      "items": [
+        {
+          "title": "مسح والدفع",
+          "description": "مدفوعات QR و UPI",
+          "navigation_route": { "route": "payments_scan", "route_id": "" },
+          "icon": "CommunityMaterialIcons.qrcode_scan",
+          "icon_color": "#FF0F766E",
+          "trailing_icon": "CommunityMaterialIcons.chevron_right",
+          "trailing_icon_color": "#FF5EEAD4"
+        },
+        {
+          "title": "شحن المحفظة",
+          "description": "أضف رصيدًا خلال ثوانٍ",
+          "navigation_route": { "route": "payments_topup", "route_id": "" },
+          "icon": "CommunityMaterialIcons.plus_circle_outline",
+          "icon_color": "#FF0F766E",
+          "trailing_icon": "CommunityMaterialIcons.chevron_right",
+          "trailing_icon_color": "#FF5EEAD4"
+        }
+      ],
+      "banner": {
+        "src": "https://picsum.photos/1280/720?random=71",
+        "width": 1280,
+        "height": 160,
+        "border_radius": 18,
+        "opacity": 0.95,
+        "padding": 12,
+        "alignment": "center",
+        "box_shadow": "0px 10px 24px rgba(15, 118, 110, 0.18)",
+        "margin": 14,
+        "background_gradient": "linear-gradient(135deg, #FF0F766E, #FF5EEAD4)",
+        "overlay_text_config": null,
+        "animation": "fade",
+        "navigation_route": null
+      }
+    },
+    {
+      "title": "الطلبات",
+      "items": [
+        {
+          "title": "تتبع الطلبات",
+          "description": "حالة التوصيل مباشرة",
+          "navigation_route": { "route": "orders_tracking", "route_id": "" },
+          "icon": "CommunityMaterialIcons.timetable",
+          "icon_color": "#FF0F766E",
+          "trailing_icon": "CommunityMaterialIcons.chevron_right",
+          "trailing_icon_color": "#FF5EEAD4"
+        },
+        {
+          "title": "مركز الإرجاع",
+          "description": "استرجاع واستبدال المنتجات",
+          "navigation_route": { "route": "orders_returns", "route_id": "" },
+          "icon": "CommunityMaterialIcons.swap_horizontal",
+          "icon_color": "#FF0F766E",
+          "trailing_icon": "CommunityMaterialIcons.chevron_right",
+          "trailing_icon_color": "#FF5EEAD4"
+        }
+      ],
+      "banner": {
+        "src": "https://picsum.photos/1280/720?random=72",
+        "width": 1280,
+        "height": 160,
+        "border_radius": 18,
+        "opacity": 0.95,
+        "padding": 12,
+        "alignment": "center",
+        "box_shadow": "0px 10px 24px rgba(15, 118, 110, 0.18)",
+        "margin": 14,
+        "background_gradient": "linear-gradient(135deg, #FF1D4ED8, #FF38BDF8)",
+        "overlay_text_config": null,
+        "animation": "fade",
+        "navigation_route": null
+      }
+    },
+    {
+      "title": "تفضيلات",
+      "items": [
+        {
+          "title": "اللغة",
+          "description": "العربية (تغيير)",
+          "navigation_route": { "route": "prefs_locale", "route_id": "" },
+          "icon": "CommunityMaterialIcons.translate",
+          "icon_color": "#FF0F766E",
+          "trailing_icon": "CommunityMaterialIcons.chevron_right",
+          "trailing_icon_color": "#FF5EEAD4"
+        },
+        {
+          "title": "المظهر",
+          "description": "يتبدّل تلقائيًا مع النظام",
+          "navigation_route": { "route": "prefs_theme", "route_id": "" },
+          "icon": "CommunityMaterialIcons.theme_light_dark",
+          "icon_color": "#FF0F766E",
+          "trailing_icon": "CommunityMaterialIcons.chevron_right",
+          "trailing_icon_color": "#FF5EEAD4"
+        }
+      ],
+      "banner": {
+        "src": "https://picsum.photos/1280/720?random=73",
+        "width": 1280,
+        "height": 160,
+        "border_radius": 18,
+        "opacity": 0.95,
+        "padding": 12,
+        "alignment": "center",
+        "box_shadow": "0px 10px 24px rgba(15, 118, 110, 0.18)",
+        "margin": 14,
+        "background_gradient": "linear-gradient(135deg, #FFF97316, #FFFB7185)",
+        "overlay_text_config": null,
+        "animation": "fade",
+        "navigation_route": null
+      }
+    },
+    {
+      "title": "الحساب (نمط جديد)",
+      "items": [
+        {
+          "title": "الملف الشخصي",
+          "description": "حدّث بياناتك ووسائل التواصل.",
+          "navigation_route": { "route": "profile", "route_id": "" },
+          "icon": "FluentIcons.person_24_regular",
+          "icon_color": "#FF0F766E",
+          "trailing_icon": "CommunityMaterialIcons.chevron_right",
+          "trailing_icon_color": "#FF5EEAD4"
+        },
+        {
+          "title": "الأمان",
+          "description": "كلمة المرور، الأجهزة، والخصوصية.",
+          "navigation_route": { "route": "account_security", "route_id": "" },
+          "icon": "FluentIcons.shield_lock_24_regular",
+          "icon_color": "#FF0F766E",
+          "trailing_icon": "CommunityMaterialIcons.chevron_right",
+          "trailing_icon_color": "#FF5EEAD4"
+        },
+        {
+          "title": "العناوين",
+          "description": "إدارة عناوين الشحن والفواتير.",
+          "navigation_route": { "route": "account_addresses", "route_id": "" },
+          "icon": "FluentIcons.location_24_regular",
+          "icon_color": "#FF0F766E",
+          "trailing_icon": "CommunityMaterialIcons.chevron_right",
+          "trailing_icon_color": "#FF5EEAD4"
+        },
+        {
+          "title": "طرق الدفع",
+          "description": "إضافة وإدارة بطاقاتك بأمان.",
+          "navigation_route": { "route": "account_payment_methods", "route_id": "" },
+          "icon": "FluentIcons.credit_card_toolbox_24_regular",
+          "icon_color": "#FF0F766E",
+          "trailing_icon": "CommunityMaterialIcons.chevron_right",
+          "trailing_icon_color": "#FF5EEAD4"
+        },
+        {
+          "title": "تسجيل الخروج",
+          "description": "الخروج من هذا الجهاز.",
+          "navigation_route": { "route": "logout", "route_id": "" },
+          "icon": "FluentIcons.sign_out_24_regular",
+          "icon_color": "#FFEF4444",
+          "trailing_icon": "CommunityMaterialIcons.chevron_right",
+          "trailing_icon_color": "#FFEF4444"
+        }
+      ],
+      "banner": {
+        "src": "https://picsum.photos/1280/720?random=74",
+        "width": 1280,
+        "height": 160,
+        "border_radius": 18,
+        "opacity": 0.95,
+        "padding": 12,
+        "alignment": "center",
+        "box_shadow": "0px 10px 24px rgba(15, 118, 110, 0.18)",
+        "margin": 14,
+        "background_gradient": "linear-gradient(135deg, #FF0F766E, #FF99F6E4)",
+        "overlay_text_config": null,
+        "animation": "fade",
+        "navigation_route": null
+      }
+    }
+  ],
+  "banner": null,
+  "layout": "Layout4",
+  "floating_action_button": {
+    "enabled": true,
+    "icon": "CommunityMaterialIcons.help_circle_outline",
+    "icon_color": "#FF0F172A",
+    "background_color": "#FF5EEAD4",
+    "position": "bottomRight",
+    "navigation_route": { "route": "support_help_center", "route_id": "" },
+    "elevation": 8,
+    "mini": false,
+    "foreground_color": null,
+    "is_extended": false,
+    "label": ""
+  },
+  "app_bar_config": {
+    "layout": "gradient_background",
+    "title_config": null,
+    "flexible_space_bar_title_config": null,
+    "background_color": null,
+    "status_bar_color": null,
+    "foreground_color": "#FF0F172A",
+    "background_image": null,
+    "gradient_enabled": true,
+    "gradient_start_color": "#FFE6FFFB",
+    "gradient_end_color": "#FFF1FFF7",
+    "gradient_begin": "topCenter",
+    "gradient_end": "bottomCenter",
+    "drawer": true,
+    "drawer_icon": "FluentIcons.list_16_regular",
+    "floating": false,
+    "pinned": true,
+    "snap": false,
+    "stretch": false,
+    "expanded_height": 96,
+    "search_bar": {
+      "enabled": true,
+      "placeholder": "ابحث عن أي شيء…",
+      "icon": "FlutterRemix.search_2_line",
+      "barcode_scan": false,
+      "barcode_icon": "barcode",
+      "background_color": "#FFFFFFFF",
+      "icon_color": "#FF0F766E",
+      "border_radius": 18
+    },
+    "bottom": { "enabled": false, "preferred_size": 44, "widget": "SearchBar", "tab_bar": null },
+    "logo": false,
+    "logo_asset": null,
+    "barcode": false,
+    "border_radius": 14,
+    "actions": [],
+    "popup_menus": [],
+    "leading_icon": null,
+    "center_title": false,
+    "clipper_config": {
+      "enabled": true,
+      "clipper_type": "stair",
+      "wave_height": null,
+      "notch_count": null,
+      "notch_radius": null,
+      "zigzag_count": null,
+      "zigzag_height": null,
+      "stair_count": 12,
+      "stair_height": 10
+    },
+    "background_widget": "SoftAurora",
+    "collapse_mode": "parallax",
+    "status_bar_icon_brightness": "Brightness.dark",
+    "status_bar_brightness": "Brightness.dark"
+  },
+  "margin": { "top": 10, "bottom": 0, "left": 10, "right": 10 },
+  "padding": null,
+  "card_config": {
+    "color": "#FFFFFFFF",
+    "shadow_color": "#240F766E",
+    "surface_tint_color": "#FFF3F7F6",
+    "elevation": 5,
+    "border_radius": 16,
+    "border_on_foreground": true,
+    "margin": { "top": 5, "bottom": 5, "left": 5, "right": 5 }
+  }
+},
+{
+  "style": {
     "background_color": "#FFE0F2F1",
     "group_title_style": {
       "font_size": 22,
