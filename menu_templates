@@ -1,6 +1,258 @@
 [{
   "style": {
     "banner_image": null,
+    "background_color": "#FFF8FAFC",
+    "group_title_style": {
+      "font_size": 18,
+      "font_weight": "bold",
+      "color": "#FF0F172A",
+      "letter_spacing": 0.2,
+      "font_family": "Roboto",
+      "text_shadow": null,
+      "decoration": null
+    },
+    "group_desc_style": null,
+    "menu_title_style": {
+      "font_size": 16,
+      "font_weight": "bold",
+      "color": "#FF0F172A",
+      "letter_spacing": 0.1,
+      "font_family": "Roboto",
+      "text_shadow": null,
+      "decoration": null
+    },
+    "menu_desc_style": {
+      "font_size": 13,
+      "font_weight": "normal",
+      "color": "#FF64748B",
+      "letter_spacing": 0,
+      "font_family": "Roboto",
+      "text_shadow": null,
+      "decoration": null
+    },
+    "menu_icon_color": "#FF2563EB",
+    "trailing_icon_color": "#FF94A3B8",
+    "bottom_text": "الإصدار 4.0.1",
+    "social_links": [
+      {
+        "title": "إنستغرام",
+        "icon": "FontAwesomeIcons.instagram",
+        "url": "https://instagram.com",
+        "icon_color": "#FFE1306C"
+      },
+      {
+        "title": "فيسبوك",
+        "icon": "FontAwesomeIcons.facebook",
+        "url": "https://facebook.com",
+        "icon_color": "#FF1877F2"
+      },
+      {
+        "title": "تويتر",
+        "icon": "FontAwesomeIcons.twitter",
+        "url": "https://twitter.com",
+        "icon_color": "#FF1DA1F2"
+      }
+    ]
+  },
+  "menu_groups": [
+    {
+      "title": "عام",
+      "description": null,
+      "title_style": {
+        "font_size": 18,
+        "font_weight": "bold",
+        "color": "#FF0F172A",
+        "letter_spacing": 0.2,
+        "font_family": "Roboto",
+        "text_shadow": null,
+        "decoration": null
+      },
+      "description_style": null,
+      "items": [
+        {
+          "title": "اللغة",
+          "description": "اختر لغتك",
+          "title_style": null,
+          "description_style": null,
+          "icon": "FluentIcons.translate_24_regular",
+          "icon_color": "#FF2563EB",
+          "trailing_icon": "FluentIcons.chevron_left_24_regular",
+          "trailing_icon_color": "#FF94A3B8",
+          "navigation_route": null
+        },
+        {
+          "title": "المظهر",
+          "description": "التبديل بين الثيمات",
+          "title_style": null,
+          "description_style": null,
+          "icon": "FluentIcons.weather_sunny_24_regular",
+          "icon_color": "#FF7C3AED",
+          "trailing_icon": "FluentIcons.chevron_left_24_regular",
+          "trailing_icon_color": "#FF94A3B8",
+          "navigation_route": null
+        }
+      ],
+      "banner": null
+    },
+    {
+      "title": "الدعم",
+      "description": null,
+      "title_style": {
+        "font_size": 18,
+        "font_weight": "bold",
+        "color": "#FF0F172A",
+        "letter_spacing": 0.2,
+        "font_family": "Roboto",
+        "text_shadow": null,
+        "decoration": null
+      },
+      "description_style": null,
+      "items": [
+        {
+          "title": "الأسئلة الشائعة",
+          "description": "الأسئلة الأكثر شيوعًا",
+          "title_style": null,
+          "description_style": null,
+          "icon": "FluentIcons.question_circle_24_regular",
+          "icon_color": "#FF0EA5E9",
+          "trailing_icon": "FluentIcons.chevron_left_24_regular",
+          "trailing_icon_color": "#FF94A3B8",
+          "navigation_route": null
+        },
+        {
+          "title": "تواصل مع الدعم",
+          "description": "تواصل معنا للمساعدة",
+          "title_style": null,
+          "description_style": null,
+          "icon": "FluentIcons.person_support_24_regular",
+          "icon_color": "#FFF97316",
+          "trailing_icon": "FluentIcons.chevron_left_24_regular",
+          "trailing_icon_color": "#FF94A3B8",
+          "navigation_route": { "route": "webview", "route_id": "/contact" }
+        }
+      ],
+      "banner": null
+    },
+    {
+      "title": "التجارة الإلكترونية",
+      "description": null,
+      "title_style": {
+        "font_size": 18,
+        "font_weight": "bold",
+        "color": "#FF0F172A",
+        "letter_spacing": 0.2,
+        "font_family": "Roboto",
+        "text_shadow": null,
+        "decoration": null
+      },
+      "description_style": null,
+      "items": [
+        {
+          "title": "الطلبات",
+          "description": "عرض سجل طلباتك",
+          "title_style": null,
+          "description_style": null,
+          "icon": "FluentIcons.receipt_24_regular",
+          "icon_color": "#FF22C55E",
+          "trailing_icon": "FluentIcons.chevron_left_24_regular",
+          "trailing_icon_color": "#FF94A3B8",
+          "navigation_route": { "route": "orders", "route_id": "" }
+        },
+        {
+          "title": "المفضلة",
+          "description": "منتجاتك المفضلة",
+          "title_style": null,
+          "description_style": null,
+          "icon": "FluentIcons.heart_24_regular",
+          "icon_color": "#FFEF4444",
+          "trailing_icon": "FluentIcons.chevron_left_24_regular",
+          "trailing_icon_color": "#FF94A3B8",
+          "navigation_route": { "route": "products", "route_id": "" }
+        },
+        {
+          "title": "الرسائل",
+          "description": "تحقق من رسائلك",
+          "title_style": null,
+          "description_style": null,
+          "icon": "FluentIcons.chat_24_regular",
+          "icon_color": "#FF06B6D4",
+          "trailing_icon": "FluentIcons.chevron_left_24_regular",
+          "trailing_icon_color": "#FF94A3B8",
+          "navigation_route": { "route": "message", "route_id": "" }
+        },
+        {
+          "title": "يد التحكم",
+          "description": "إدارة معدات الألعاب الخاصة بك",
+          "title_style": null,
+          "description_style": null,
+          "icon": "FluentIcons.games_24_regular",
+          "icon_color": "#FFF59E0B",
+          "trailing_icon": "FluentIcons.chevron_left_24_regular",
+          "trailing_icon_color": "#FF94A3B8",
+          "navigation_route": null
+        }
+      ],
+      "banner": null
+    }
+  ],
+  "banner": {
+    "src": "",
+    "width": 1200,
+    "height": 60.24074074074074,
+    "border_radius": 14,
+    "opacity": 1,
+    "padding": 0,
+    "alignment": "center",
+    "box_shadow": "0px 10px 25px rgba(15, 23, 42, 0.08)",
+    "margin": 0,
+    "background_gradient": "linear-gradient(90deg, rgba(37,99,235,1) 0%, rgba(14,165,233,1) 50%, rgba(124,58,237,1) 100%)",
+    "overlay_text_config": null,
+    "animation": "none",
+    "navigation_route": null
+  },
+  "layout": "Layout2",
+  "actions": null,
+  "floating_action_button": null,
+  "zoom_drawer": {
+    "enabled": true,
+    "style": "DrawerStyle.defaultStyle",
+    "main_screen_scale": 0.12,
+    "slide_width": 285,
+    "slide_height": 0,
+    "menu_screen_width": null,
+    "border_radius": 26,
+    "angle": -10,
+    "drag_offset": 60,
+    "open_drag_sensitivity": 425,
+    "close_drag_sensitivity": 425,
+    "drawer_shadows_background_color": "#FFFFFFFF",
+    "menu_background_color": "#FFF8FAFC",
+    "main_screen_overlay_color": "#331E40AF",
+    "menu_screen_overlay_color": null,
+    "overlay_blend": "srcATop",
+    "overlay_blur": 6,
+    "shadow_layer1_color": "#FFFFFFFF",
+    "shadow_layer2_color": "#FFFFFFFF",
+    "show_shadow": false,
+    "open_curve": "Cubic(0.00, 0.00, 0.58, 1.00)",
+    "close_curve": "Cubic(0.00, 0.00, 0.58, 1.00)",
+    "duration": 260,
+    "reverse_duration": 260,
+    "android_close_on_back_tap": false,
+    "move_menu_screen": true,
+    "disable_drag_gesture": false,
+    "is_rtl": true,
+    "clip_main_screen": true,
+    "main_screen_tap_close": false,
+    "menu_screen_tap_close": true,
+    "main_screen_absorb_pointer": true,
+    "shrink_main_screen": false
+  },
+  "categories": null
+},
+{
+  "style": {
+    "banner_image": null,
     "background_color": "#FFFBF5",
 
     "group_title_style": {
