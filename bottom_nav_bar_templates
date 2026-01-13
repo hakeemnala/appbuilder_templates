@@ -1,4 +1,52 @@
 [{
+  "name": "حديث بسيط",
+  "style": {
+    "elevation": 0,
+    "type": "fixed",
+    "fixedColor": "#FFFFFFFF",
+    "backgroundColor": "#FFFFFFFF",
+    "iconSize": 24,
+    "selectedItemColor": "#FF2563EB",
+    "unselectedItemColor": "#FF9CA3AF",
+    "selectedFontSize": 12,
+    "unselectedFontSize": 11,
+    "showSelectedLabels": true,
+    "showUnselectedLabels": true,
+    "customNavigationType": "google_nav_bar",
+    "tabStyle": "reactCircle"
+  },
+  "nav_items": [
+    {
+      "title": "استكشاف",
+      "icon": "PhosphorIconsBold.compass",
+      "activeIcon": "PhosphorIconsDuotone.compass",
+      "backgroundColor": "#FFF5F5F5",
+      "navigation_route": { "route": "home", "route_id": "" }
+    },
+    {
+      "title": "تصفح",
+      "icon": "PhosphorIconsBold.squaresFour",
+      "activeIcon": "PhosphorIconsDuotone.squaresFour",
+      "backgroundColor": "#FFF5F5F5",
+      "navigation_route": { "route": "categories_page", "route_id": "" }
+    },
+    {
+      "title": "السلة",
+      "icon": "PhosphorIconsBold.bag",
+      "activeIcon": "PhosphorIconsDuotone.bag",
+      "backgroundColor": "#FFF5F5F5",
+      "navigation_route": { "route": "cart", "route_id": "" }
+    },
+    {
+      "title": "حسابي",
+      "icon": "PhosphorIconsBold.userCircle",
+      "activeIcon": "PhosphorIconsDuotone.userCircle",
+      "backgroundColor": "#FFF5F5F5",
+      "navigation_route": { "route": "account", "route_id": "" }
+    }
+  ]
+},
+{
   "name": "تجارة إلكترونية أنيقة مع انتقال",
   "style": {
     "elevation": 0,
