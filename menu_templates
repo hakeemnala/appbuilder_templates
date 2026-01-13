@@ -1,6 +1,141 @@
 [{
   "style": {
     "banner_image": null,
+    "background_color": "#FFF5F5F7",
+    "group_title_style": null,
+    "group_desc_style": null,
+    "menu_title_style": null,
+    "menu_desc_style": null,
+    "menu_icon_color": "#FF1A237E",
+    "trailing_icon_color": "#FF9E9E9E",
+    "bottom_text": "الإصدار 4.0.1",
+    "social_links": [
+      {
+        "title": "إنستغرام",
+        "icon": "FontAwesomeIcons.instagram",
+        "url": "https://instagram.com",
+        "icon_color": "#FF1A237E"
+      },
+      {
+        "title": "فيسبوك",
+        "icon": "FontAwesomeIcons.facebook",
+        "url": "https://facebook.com",
+        "icon_color": "#FF1A237E"
+      },
+      {
+        "title": "تويتر",
+        "icon": "FontAwesomeIcons.twitter",
+        "url": "https://twitter.com",
+        "icon_color": "#FF1A237E"
+      }
+    ]
+  },
+  "menu_groups": [
+    {
+      "title": "الإعدادات العامة",
+      "description": null,
+      "title_style": {
+        "font_size": 24,
+        "font_weight": "bold",
+        "color": "#FF000000",
+        "letter_spacing": 0.5,
+        "font_family": null,
+        "text_shadow": null,
+        "decoration": null
+      },
+      "items": [
+        {
+          "title": "اللغة",
+          "description": "اختر لغتك المفضلة",
+          "title_style": {
+            "font_size": 18,
+            "font_weight": "bold",
+            "color": "#FF212121"
+          },
+          "description_style": {
+            "font_size": 12,
+            "font_weight": "normal",
+            "color": "#FF616161"
+          },
+          "icon": "FluentIcons.translate_24_regular",
+          "icon_color": "#FF1A237E",
+          "trailing_icon": "FluentIcons.chevron_left_24_regular",
+          "navigation_route": null
+        },
+        {
+          "title": "العملة",
+          "description": "تغيير العملة المستخدمة",
+          "icon": "FluentIcons.money_24_regular",
+          "icon_color": "#FF1A237E",
+          "trailing_icon": "FluentIcons.chevron_left_24_regular",
+          "navigation_route": null
+        },
+        {
+          "title": "تسجيل الدخول",
+          "description": "الدخول إلى حسابك",
+          "icon": "FluentIcons.lock_closed_24_regular",
+          "icon_color": "#FF1A237E",
+          "trailing_icon": "FluentIcons.chevron_left_24_regular",
+          "navigation_route": {
+            "route": "login",
+            "route_id": ""
+          }
+        }
+      ]
+    },
+    {
+      "title": "خدمات المتجر",
+      "items": [
+        {
+          "title": "طلباتي",
+          "description": "متابعة مشترياتك",
+          "icon": "FluentIcons.shopping_bag_24_regular",
+          "icon_color": "#FF1A237E",
+          "navigation_route": {
+            "route": "orders",
+            "route_id": ""
+          }
+        },
+        {
+          "title": "المفضلة",
+          "description": "قائمة المنتجات المفضلة",
+          "icon": "FluentIcons.heart_24_regular",
+          "icon_color": "#FF1A237E",
+          "navigation_route": {
+            "route": "products",
+            "route_id": ""
+          }
+        },
+        {
+          "title": "المحفظة",
+          "description": "إدارة الرصيد المالي",
+          "icon": "FluentIcons.wallet_24_regular",
+          "icon_color": "#FF1A237E",
+          "navigation_route": {
+            "route": "wallet",
+            "route_id": ""
+          }
+        }
+      ]
+    }
+  ],
+  "layout": "Layout2",
+  "zoom_drawer": {
+    "enabled": true,
+    "style": "DrawerStyle.defaultStyle",
+    "main_screen_scale": 0.1,
+    "slide_width": 300,
+    "border_radius": 20,
+    "angle": 0,
+    "is_rtl": true,
+    "menu_background_color": "#FFF5F5F7",
+    "show_shadow": true,
+    "shadow_layer1_color": "#FFE0E0E0",
+    "shadow_layer2_color": "#FFBDBDBD"
+  }
+},{
+  "style": {
+    "banner_image": null,
     "background_color": "#FFF8FAFC",
     "group_title_style": {
       "font_size": 18,
