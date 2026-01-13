@@ -1,6 +1,175 @@
 [{
   "style": {
     "banner_image": null,
+    "background_color": "#FFFBF5",
+
+    "group_title_style": {
+      "font_size": 17,
+      "font_weight": "w700",
+      "color": "#FF1F2937",
+      "font_family": "Cairo"
+    },
+
+    "group_desc_style": {
+      "font_size": 12,
+      "color": "#FF64748B",
+      "font_family": "Cairo"
+    },
+
+    "menu_title_style": {
+      "font_size": 15,
+      "font_weight": "w600",
+      "color": "#FF1F2937",
+      "font_family": "Cairo"
+    },
+
+    "menu_desc_style": {
+      "font_size": 12,
+      "color": "#FF64748B",
+      "font_family": "Cairo"
+    },
+
+    "menu_icon_color": "#FF047857",
+    "trailing_icon_color": "#FF94A3B8",
+
+    "bottom_text": "الإصدار 4.0.1",
+
+    "social_links": [
+      {
+        "title": "لينكدإن",
+        "icon": "FontAwesomeIcons.linkedin",
+        "url": "https://linkedin.com",
+        "icon_color": "#FF0A66C2"
+      },
+      {
+        "title": "جيت هاب",
+        "icon": "FontAwesomeIcons.github",
+        "url": "https://github.com",
+        "icon_color": "#FF1F2937"
+      },
+      {
+        "title": "إنستغرام",
+        "icon": "FontAwesomeIcons.instagram",
+        "url": "https://instagram.com",
+        "icon_color": "#FFE11D48"
+      },
+      {
+        "title": "فيسبوك",
+        "icon": "FontAwesomeIcons.facebook",
+        "url": "https://facebook.com",
+        "icon_color": "#FF1877F2"
+      }
+    ]
+  },
+
+  "menu_groups": [
+    {
+      "title": "الإعدادات العامة",
+      "items": [
+        {
+          "title": "اللغة",
+          "description": "تغيير لغة التطبيق",
+          "icon": "Icons.language",
+          "icon_color": "#FF0D9488",
+          "trailing_icon": "Icons.arrow_forward_ios",
+          "trailing_icon_color": "#FF94A3B8",
+          "navigation_route": null
+        },
+        {
+          "title": "المظهر",
+          "description": "الوضع الفاتح أو الداكن",
+          "icon": "Icons.brightness_6",
+          "icon_color": "#FF047857",
+          "trailing_icon": "Icons.arrow_forward_ios",
+          "trailing_icon_color": "#FF94A3B8",
+          "navigation_route": null
+        }
+      ]
+    },
+
+    {
+      "title": "الدعم والمساعدة",
+      "items": [
+        {
+          "title": "الأسئلة الشائعة",
+          "description": "مركز المساعدة",
+          "icon": "Icons.help_outline",
+          "icon_color": "#FFF59E0B",
+          "trailing_icon": "Icons.arrow_forward_ios",
+          "trailing_icon_color": "#FFFCD34D",
+          "navigation_route": null
+        },
+        {
+          "title": "تواصل مع الدعم",
+          "description": "الدعم الفني المباشر",
+          "icon": "Icons.contact_support",
+          "icon_color": "#FFEA580C",
+          "trailing_icon": "Icons.arrow_forward_ios",
+          "trailing_icon_color": "#FFFDBA74",
+          "navigation_route": {
+            "route": "webview",
+            "route_id": "/contact"
+          }
+        }
+      ]
+    },
+
+    {
+      "title": "التجارة الإلكترونية",
+      "items": [
+        {
+          "title": "طلباتي",
+          "description": "إدارة الطلبات",
+          "icon": "Icons.receipt_long",
+          "icon_color": "#FF16A34A",
+          "trailing_icon": "Icons.arrow_forward_ios",
+          "trailing_icon_color": "#FF86EFAC",
+          "navigation_route": {
+            "route": "orders",
+            "route_id": ""
+          }
+        },
+        {
+          "title": "المفضلة",
+          "description": "قائمة المنتجات المفضلة",
+          "icon": "FlutterRemix.heart_fill",
+          "icon_color": "#FFDB2777",
+          "trailing_icon": "Icons.arrow_forward_ios",
+          "trailing_icon_color": "#FFF9A8D4",
+          "navigation_route": {
+            "route": "products",
+            "route_id": ""
+          }
+        },
+        {
+          "title": "الرسائل",
+          "description": "التواصل",
+          "icon": "CupertinoIcons.chat_bubble",
+          "icon_color": "#FF0284C7",
+          "trailing_icon": "Icons.arrow_forward_ios",
+          "trailing_icon_color": "#FF7DD3FC",
+          "navigation_route": {
+            "route": "message",
+            "route_id": ""
+          }
+        }
+      ]
+    }
+  ],
+
+  "layout": "Layout3",
+
+  "zoom_drawer": {
+    "enabled": true,
+    "is_rtl": true,
+    "border_radius": 30,
+    "menu_background_color": "#FFFBF5",
+    "drawer_shadows_background_color": "#FF047857"
+  }
+},
+{
+  "style": {
+    "banner_image": null,
     "background_color": "#FFF7F9FC",
     "menu_icon_color": "#FF0F766E",
     "trailing_icon_color": "#FF94A3B8",
