@@ -1,4 +1,59 @@
 [{
+  "name": "محايد احترافي",
+  "style": {
+    "elevation": 0,
+    "type": "shifting",
+    "fixedColor": "#FF0F172A",
+    "backgroundColor": "#FFFFFFFF",
+    "iconSize": 26,
+    "selectedItemColor": "#FF14B8A6",
+    "unselectedItemColor": "#FF94A3B8",
+    "selectedFontSize": 12,
+    "unselectedFontSize": 11,
+    "showSelectedLabels": false,
+    "showUnselectedLabels": false,
+    "customNavigationType": "google_nav_bar",
+    "tabStyle": "reactCircle"
+  },
+  "nav_items": [
+    {
+      "title": "الرئيسية",
+      "icon": "PhosphorIconsRegular.houseSimple",
+      "activeIcon": "PhosphorIconsDuotone.houseSimple",
+      "backgroundColor": "#FFF1F5F9",
+      "navigation_route": { "route": "home", "route_id": "" }
+    },
+    {
+      "title": "الكتالوج",
+      "icon": "PhosphorIconsRegular.gridFour",
+      "activeIcon": "PhosphorIconsDuotone.gridFour",
+      "backgroundColor": "#FFF1F5F9",
+      "navigation_route": { "route": "categories_page", "route_id": "" }
+    },
+    {
+      "title": "الطلبات",
+      "icon": "PhosphorIconsRegular.receipt",
+      "activeIcon": "PhosphorIconsDuotone.receipt",
+      "backgroundColor": "#FFF1F5F9",
+      "navigation_route": { "route": "orders", "route_id": "" }
+    },
+    {
+      "title": "السلة",
+      "icon": "PhosphorIconsRegular.basket",
+      "activeIcon": "PhosphorIconsDuotone.basket",
+      "backgroundColor": "#FFF1F5F9",
+      "navigation_route": { "route": "cart", "route_id": "" }
+    },
+    {
+      "title": "حسابي",
+      "icon": "PhosphorIconsRegular.userCircleGear",
+      "activeIcon": "PhosphorIconsDuotone.userCircleGear",
+      "backgroundColor": "#FFF1F5F9",
+      "navigation_route": { "route": "account", "route_id": "" }
+    }
+  ]
+},
+{
   "name": "حديث بسيط",
   "style": {
     "elevation": 0,
