@@ -1,5 +1,159 @@
 [{
   "style": {
+    "background_color": "#FFF6F7F4",
+    "group_title_style": {
+      "font_size": 20,
+      "font_weight": "w800",
+      "color": "#FF1E3A34",
+      "letter_spacing": 0.3,
+      "font_family": "Cairo",
+      "text_shadow": null,
+      "decoration": null
+    },
+    "group_desc_style": null,
+    "menu_title_style": {
+      "font_size": 17,
+      "font_weight": "bold",
+      "color": "#FF243D37",
+      "letter_spacing": 0.2,
+      "font_family": "Cairo",
+      "text_shadow": null,
+      "decoration": null
+    },
+    "menu_desc_style": {
+      "font_size": 14,
+      "font_weight": "normal",
+      "color": "#FF7A8C86",
+      "letter_spacing": 0,
+      "font_family": "Cairo",
+      "text_shadow": null,
+      "decoration": null
+    },
+    "menu_icon_color": "#FF1E6F5C",
+    "trailing_icon_color": "#FFC9B36D",
+    "bottom_text": "الإصدار 10.0.0",
+    "social_links": [
+      { "title": "لينكدإن", "icon": "FontAwesomeIcons.linkedin", "url": "https://linkedin.com", "icon_color": "#FF0077B5" },
+      { "title": "جيت هاب", "icon": "FontAwesomeIcons.github", "url": "https://github.com", "icon_color": "#FF333333" },
+      { "title": "إنستغرام", "icon": "FontAwesomeIcons.instagram", "url": "https://instagram.com", "icon_color": "#FFE1306C" },
+      { "title": "فيسبوك", "icon": "FontAwesomeIcons.facebook", "url": "https://facebook.com", "icon_color": "#FF3B5998" },
+      { "title": "تويتر", "icon": "FontAwesomeIcons.twitter", "url": "https://twitter.com", "icon_color": "#FF1DA1F2" },
+      { "title": "بينتريست", "icon": "FontAwesomeIcons.pinterest", "url": "https://pinterest.com", "icon_color": "#FFE60023" }
+    ],
+    "trailing_icon": null
+  },
+
+  "menu_groups": [
+    {
+      "title": "إدارة الحساب",
+      "items": [
+        {
+          "title": "الملف الشخصي",
+          "description": "إدارة بياناتك الشخصية وتفضيلاتك.",
+          "navigation_route": { "route": "profile", "route_id": "" },
+          "icon": "FluentIcons.person_tag_48_regular",
+          "icon_color": "#FF1E6F5C",
+          "trailing_icon": "FluentIcons.arrow_right_24_regular",
+          "trailing_icon_color": "#FFC9B36D"
+        },
+        {
+          "title": "تسجيل الدخول",
+          "description": "الدخول للوصول إلى الميزات المتقدمة.",
+          "navigation_route": { "route": "login", "route_id": "" },
+          "icon": "FluentIcons.lock_closed_24_regular",
+          "icon_color": "#FF1E6F5C",
+          "trailing_icon": "FluentIcons.arrow_right_24_regular",
+          "trailing_icon_color": "#FFC9B36D"
+        },
+        {
+          "title": "إنشاء حساب",
+          "description": "إنشاء حساب جديد للاستفادة من جميع المزايا.",
+          "navigation_route": { "route": "register", "route_id": "" },
+          "icon": "FluentIcons.person_add_24_regular",
+          "icon_color": "#FF1E6F5C",
+          "trailing_icon": "FluentIcons.arrow_right_24_regular",
+          "trailing_icon_color": "#FFC9B36D"
+        },
+        {
+          "title": "حذف الحساب",
+          "description": "إزالة بياناتك نهائيًا في حال رغبتك.",
+          "navigation_route": { "route": "delete_account", "route_id": "" },
+          "icon": "FluentIcons.delete_dismiss_24_regular",
+          "icon_color": "#FFD84315",
+          "trailing_icon": "FluentIcons.arrow_right_24_regular",
+          "trailing_icon_color": "#FFFFAB91"
+        }
+      ],
+      "banner": null
+    },
+
+    {
+      "title": "التسوق والمكافآت",
+      "items": [
+        {
+          "title": "المفضلة",
+          "description": "حفظ المنتجات المفضلة للشراء لاحقًا.",
+          "navigation_route": { "route": "wishlist", "route_id": "" },
+          "icon": "FluentIcons.heart_24_regular",
+          "icon_color": "#FF1E6F5C",
+          "trailing_icon": "FluentIcons.arrow_right_24_regular",
+          "trailing_icon_color": "#FFC9B36D"
+        },
+        {
+          "title": "الطلبات",
+          "description": "متابعة وإدارة مشترياتك.",
+          "navigation_route": { "route": "orders", "route_id": "" },
+          "icon": "FluentIcons.cart_24_regular",
+          "icon_color": "#FF1E6F5C",
+          "trailing_icon": "FluentIcons.arrow_right_24_regular",
+          "trailing_icon_color": "#FFC9B36D"
+        },
+        {
+          "title": "المحفظة",
+          "description": "عرض الرصيد وسجل المعاملات.",
+          "navigation_route": { "route": "wallet", "route_id": "" },
+          "icon": "FluentIcons.wallet_24_regular",
+          "icon_color": "#FF1E6F5C",
+          "trailing_icon": "FluentIcons.arrow_right_24_regular",
+          "trailing_icon_color": "#FFC9B36D"
+        },
+        {
+          "title": "نقاط المكافآت",
+          "description": "استبدال النقاط بعروض ومزايا حصرية.",
+          "navigation_route": { "route": "reward_points", "route_id": "" },
+          "icon": "FluentIcons.ribbon_star_24_regular",
+          "icon_color": "#FF1E6F5C",
+          "trailing_icon": "FluentIcons.arrow_right_24_regular",
+          "trailing_icon_color": "#FFC9B36D"
+        }
+      ],
+      "banner": {
+        "src": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d",
+        "width": 1280,
+        "height": 240,
+        "border_radius": 18,
+        "opacity": 1,
+        "padding": 14,
+        "alignment": "center",
+        "box_shadow": "0px 10px 22px rgba(0,0,0,0.12)",
+        "margin": 20,
+        "background_gradient": "linear-gradient(135deg, #F9A825, #FFE082)",
+        "overlay_text_config": null,
+        "animation": "fade",
+        "navigation_route": null
+      }
+    }
+  ],
+
+  "layout": "Layout3",
+  "margin": null,
+  "padding": null,
+  "card_config": null,
+  "floating_action_button": null,
+  "banner": null
+},
+{
+  "style": {
     "background_color": "#FFF7FBF8",
     "group_title_style": {
       "font_size": 18,
