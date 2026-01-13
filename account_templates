@@ -1,5 +1,316 @@
 [{
   "style": {
+    "background_color": "#FFF6F8FF",
+    "group_title_style": {
+      "font_size": 16,
+      "font_weight": "w800",
+      "color": "#FF0B1220",
+      "letter_spacing": 0.25,
+      "font_family": "Cairo",
+      "text_shadow": null,
+      "decoration": null
+    },
+    "group_desc_style": null,
+    "menu_title_style": {
+      "font_size": 16,
+      "font_weight": "w700",
+      "color": "#FF0F172A",
+      "letter_spacing": 0.1,
+      "font_family": "Cairo",
+      "text_shadow": null,
+      "decoration": null
+    },
+    "menu_desc_style": {
+      "font_size": 13,
+      "font_weight": "normal",
+      "color": "#FF64748B",
+      "letter_spacing": 0,
+      "font_family": "Tajawal",
+      "text_shadow": null,
+      "decoration": null
+    },
+    "menu_icon_color": "#FF2563EB",
+    "trailing_icon_color": "#FF60A5FA",
+    "bottom_text": "عضوية بريميوم • الإصدار 4.2.0",
+    "social_links": [
+      {
+        "title": "دعم 24/7",
+        "icon": "FontAwesomeIcons.headset",
+        "url": "tel:18005551234",
+        "icon_color": "#FF2563EB"
+      },
+      {
+        "title": "تويتر",
+        "icon": "FontAwesomeIcons.xTwitter",
+        "url": "https://twitter.com",
+        "icon_color": "#FF000000"
+      },
+      {
+        "title": "آب ستور",
+        "icon": "FontAwesomeIcons.star",
+        "url": "https://appstore.com",
+        "icon_color": "#FFFF9800"
+      }
+    ],
+    "trailing_icon": "CommunityMaterialIcons.chevron_right"
+  },
+  "menu_groups": [
+    {
+      "title": "نظرة عامة على الحساب",
+      "items": [
+        {
+          "title": "الملف الشخصي والإعدادات",
+          "description": "إدارة المعلومات الشخصية",
+          "navigation_route": { "route": "profile_settings", "route_id": "" },
+          "icon": "CommunityMaterialIcons.account_cog",
+          "icon_color": "#FF2563EB",
+          "trailing_icon": "CommunityMaterialIcons.chevron_right",
+          "trailing_icon_color": "#FF60A5FA"
+        },
+        {
+          "title": "مركز الأمان",
+          "description": "المصادقة الثنائية وإعدادات الحماية",
+          "navigation_route": { "route": "security_center", "route_id": "" },
+          "icon": "CommunityMaterialIcons.shield_account",
+          "icon_color": "#FF2563EB",
+          "trailing_icon": "CommunityMaterialIcons.chevron_right",
+          "trailing_icon_color": "#FF60A5FA"
+        },
+        {
+          "title": "عناصر التحكم بالخصوصية",
+          "description": "إعدادات البيانات والخصوصية",
+          "navigation_route": { "route": "privacy_controls", "route_id": "" },
+          "icon": "CommunityMaterialIcons.lock_outline",
+          "icon_color": "#FF2563EB",
+          "trailing_icon": "CommunityMaterialIcons.chevron_right",
+          "trailing_icon_color": "#FF60A5FA"
+        }
+      ],
+      "banner": null
+    },
+    {
+      "title": "المدفوعات والمحفظة",
+      "items": [
+        {
+          "title": "المحفظة الرقمية",
+          "description": "الرصيد المتاح: ₹15,670",
+          "navigation_route": { "route": "wallet_main", "route_id": "" },
+          "icon": "CommunityMaterialIcons.wallet_giftcard",
+          "icon_color": "#FF2563EB",
+          "trailing_icon": "CommunityMaterialIcons.chevron_right",
+          "trailing_icon_color": "#FF60A5FA"
+        },
+        {
+          "title": "طرق الدفع",
+          "description": "3 بطاقات • UPI مرتبط",
+          "navigation_route": { "route": "payment_methods", "route_id": "" },
+          "icon": "CommunityMaterialIcons.credit_card_outline",
+          "icon_color": "#FF2563EB",
+          "trailing_icon": "CommunityMaterialIcons.chevron_right",
+          "trailing_icon_color": "#FF60A5FA"
+        },
+        {
+          "title": "المكافآت والاسترداد",
+          "description": "4,210 نقطة • ₹1,240 استرداد",
+          "navigation_route": { "route": "rewards_cashback", "route_id": "" },
+          "icon": "CommunityMaterialIcons.gift_outline",
+          "icon_color": "#FF2563EB",
+          "trailing_icon": "CommunityMaterialIcons.chevron_right",
+          "trailing_icon_color": "#FF60A5FA"
+        }
+      ],
+      "banner": null
+    },
+    {
+      "title": "الدعم والإرشادات",
+      "items": [
+        {
+          "title": "مركز المساعدة المباشر",
+          "description": "دعم العملاء على مدار الساعة",
+          "navigation_route": { "route": "support_live", "route_id": "" },
+          "icon": "CommunityMaterialIcons.face_agent",
+          "icon_color": "#FF2563EB",
+          "trailing_icon": "CommunityMaterialIcons.chevron_right",
+          "trailing_icon_color": "#FF60A5FA"
+        },
+        {
+          "title": "سجل الطلبات",
+          "description": "مشتريات سابقة وتتبع",
+          "navigation_route": { "route": "orders_history", "route_id": "" },
+          "icon": "CommunityMaterialIcons.history",
+          "icon_color": "#FF2563EB",
+          "trailing_icon": "CommunityMaterialIcons.chevron_right",
+          "trailing_icon_color": "#FF60A5FA"
+        },
+        {
+          "title": "التقييمات والملاحظات",
+          "description": "شارك تجربتك معنا",
+          "navigation_route": { "route": "feedback_ratings", "route_id": "" },
+          "icon": "CommunityMaterialIcons.star_box_outline",
+          "icon_color": "#FF2563EB",
+          "trailing_icon": "CommunityMaterialIcons.chevron_right",
+          "trailing_icon_color": "#FF60A5FA"
+        }
+      ],
+      "banner": null
+    },
+    {
+      "title": "مركز الحساب",
+      "items": [
+        {
+          "title": "اشتراكي",
+          "description": "الخطة، الفواتير، وإدارة التجديد.",
+          "navigation_route": { "route": "subscription_hub", "route_id": "" },
+          "icon": "CommunityMaterialIcons.crown_outline",
+          "icon_color": "#FF2563EB",
+          "trailing_icon": "CommunityMaterialIcons.chevron_right",
+          "trailing_icon_color": "#FF60A5FA"
+        },
+        {
+          "title": "الأجهزة والجلسات",
+          "description": "إدارة الأجهزة النشطة وتسجيلات الدخول.",
+          "navigation_route": { "route": "devices_sessions", "route_id": "" },
+          "icon": "CommunityMaterialIcons.devices",
+          "icon_color": "#FF2563EB",
+          "trailing_icon": "CommunityMaterialIcons.chevron_right",
+          "trailing_icon_color": "#FF60A5FA"
+        },
+        {
+          "title": "الحدود والتنبيهات",
+          "description": "حدود الإنفاق والتنبيهات المهمة.",
+          "navigation_route": { "route": "limits_alerts", "route_id": "" },
+          "icon": "CommunityMaterialIcons.bell_badge_outline",
+          "icon_color": "#FF2563EB",
+          "trailing_icon": "CommunityMaterialIcons.chevron_right",
+          "trailing_icon_color": "#FF60A5FA"
+        },
+        {
+          "title": "تسجيل الخروج",
+          "description": "الخروج من هذا الحساب على هذا الجهاز.",
+          "navigation_route": { "route": "logout", "route_id": "" },
+          "icon": "CommunityMaterialIcons.logout",
+          "icon_color": "#FFEF4444",
+          "trailing_icon": "CommunityMaterialIcons.chevron_right",
+          "trailing_icon_color": "#FFEF4444"
+        }
+      ],
+      "banner": null
+    }
+  ],
+  "banner": null,
+  "layout": "Layout4",
+  "floating_action_button": {
+    "enabled": true,
+    "icon": "CommunityMaterialIcons.flash",
+    "icon_color": "#FFFFFFFF",
+    "background_color": "#FF2563EB",
+    "position": "bottomRight",
+    "navigation_route": { "route": "quick_action", "route_id": "" },
+    "elevation": 9,
+    "mini": false,
+    "foreground_color": null,
+    "is_extended": true,
+    "label": "إجراء سريع"
+  },
+  "app_bar_config": {
+    "layout": "gradient_background",
+    "title_config": {
+      "text": "الحساب",
+      "title_style": {
+        "font_size": 20,
+        "font_weight": "bold",
+        "color": "#FFFFFFFF",
+        "letter_spacing": 0.4,
+        "font_family": "Cairo",
+        "text_shadow": null,
+        "decoration": null
+      },
+      "animated_text_config": null,
+      "position": "center",
+      "show_title": true,
+      "height": null
+    },
+    "flexible_space_bar_title_config": null,
+    "background_color": null,
+    "status_bar_color": "#FF0B1220",
+    "foreground_color": "#FFFFFFFF",
+    "background_image": null,
+    "gradient_enabled": true,
+    "gradient_start_color": "#FF0B1220",
+    "gradient_end_color": "#FF2563EB",
+    "gradient_begin": "topLeft",
+    "gradient_end": "bottomRight",
+    "drawer": true,
+    "drawer_icon": "CommunityMaterialIcons.menu",
+    "floating": false,
+    "pinned": true,
+    "snap": false,
+    "stretch": false,
+    "expanded_height": 132,
+    "search_bar": {
+      "enabled": true,
+      "placeholder": "ابحث في الحساب…",
+      "icon": "CommunityMaterialIcons.magnify",
+      "barcode_scan": false,
+      "barcode_icon": "barcode",
+      "background_color": "#1FFFFFFF",
+      "icon_color": "#FFFFFFFF",
+      "border_radius": 24
+    },
+    "bottom": { "enabled": false, "preferred_size": 44, "widget": "SearchBar", "tab_bar": null },
+    "logo": false,
+    "logo_asset": null,
+    "barcode": false,
+    "border_radius": 20,
+    "actions": [
+      {
+        "title": "الإشعارات",
+        "icon": "CommunityMaterialIcons.bell_outline",
+        "navigation_route": { "route": "notifications", "route_id": "" },
+        "icon_color": "#FFFFFFFF"
+      }
+    ],
+    "popup_menus": [
+      {
+        "title": "المساعدة",
+        "value": "help",
+        "icon": "Icons.help_outline",
+        "navigation_route": { "route": "support_live", "route_id": "" },
+        "icon_color": "#FFFFFFFF"
+      }
+    ],
+    "leading_icon": "CommunityMaterialIcons.account_circle",
+    "center_title": true,
+    "clipper_config": {
+      "enabled": true,
+      "clipper_type": "zigzag",
+      "wave_height": 18,
+      "notch_count": null,
+      "notch_radius": null,
+      "zigzag_count": 22,
+      "zigzag_height": 14,
+      "stair_count": null,
+      "stair_height": null
+    },
+    "background_widget": "MeshGradient",
+    "collapse_mode": "parallax",
+    "status_bar_icon_brightness": "Brightness.dark",
+    "status_bar_brightness": "Brightness.dark"
+  },
+  "margin": { "top": 12, "bottom": 0, "left": 12, "right": 12 },
+  "padding": null,
+  "card_config": {
+    "color": "#FFFFFFFF",
+    "shadow_color": "#142563EB",
+    "surface_tint_color": "#FFF6F8FF",
+    "elevation": 7,
+    "border_radius": 16,
+    "border_on_foreground": true,
+    "margin": { "top": 6, "bottom": 6, "left": 6, "right": 6 }
+  }
+},
+{
+  "style": {
     "background_color": "#FFF3F7F6",
     "group_title_style": {
       "font_size": 15,
