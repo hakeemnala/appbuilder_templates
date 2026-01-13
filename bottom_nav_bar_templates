@@ -1,5 +1,5 @@
 [{
-  "name": "Retro Theme",
+  "name": "النمط الكلاسيكي",
   "style": {
     "elevation": 4,
     "type": "shifting",
@@ -17,28 +17,28 @@
   },
   "nav_items": [
     {
-      "title": "Music",
+      "title": "الموسيقى",
       "icon": "FontAwesomeIcons.music",
       "activeIcon": "FontAwesomeIcons.music_note",
       "backgroundColor": "#FFFFFFFF",
       "navigation_route": { "route": "home", "route_id": "" }
     },
     {
-      "title": "Games",
+      "title": "الألعاب",
       "icon": "FontAwesomeIcons.gamepad",
       "activeIcon": "FontAwesomeIcons.gamepad_filled",
       "backgroundColor": "#FFFFFFFF",
       "navigation_route": { "route": "home", "route_id": "" }
     },
     {
-      "title": "Gallery",
+      "title": "المعرض",
       "icon": "FontAwesomeIcons.image",
       "activeIcon": "FontAwesomeIcons.image_filled",
       "backgroundColor": "#FFFFFFFF",
       "navigation_route": { "route": "home", "route_id": "" }
     },
     {
-      "title": "Profile",
+      "title": "الملف الشخصي",
       "icon": "FontAwesomeIcons.user",
       "activeIcon": "FontAwesomeIcons.user_filled",
       "backgroundColor": "#FFFFFFFF",
