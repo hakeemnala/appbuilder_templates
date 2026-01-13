@@ -1,4 +1,52 @@
 [{
+  "name": "تجارة إلكترونية أنيقة مع انتقال",
+  "style": {
+    "elevation": 0,
+    "type": "fixed",
+    "fixedColor": "#FFFFFFFF",
+    "backgroundColor": "#FFFFFFFF",
+    "iconSize": 24,
+    "selectedItemColor": "#FF2ECC71",
+    "unselectedItemColor": "#FF95A5A6",
+    "selectedFontSize": 14,
+    "unselectedFontSize": 12,
+    "showSelectedLabels": false,
+    "showUnselectedLabels": false,
+    "customNavigationType": "default",
+    "tabStyle": "reactCircle"
+  },
+  "nav_items": [
+    {
+      "title": "الرئيسية",
+      "icon": "FlutterRemix.home_line",
+      "activeIcon": "FlutterRemix.home_fill",
+      "backgroundColor": "#FFFFFFFF",
+      "navigation_route": { "route": "home", "route_id": "" }
+    },
+    {
+      "title": "بحث",
+      "icon": "FlutterRemix.search_line",
+      "activeIcon": "FlutterRemix.search_fill",
+      "backgroundColor": "#FFFFFFFF",
+      "navigation_route": { "route": "products", "route_id": "" }
+    },
+    {
+      "title": "الطلبات",
+      "icon": "FlutterRemix.shopping_bag_2_line",
+      "activeIcon": "FlutterRemix.shopping_bag_2_fill",
+      "backgroundColor": "#FFFFFFFF",
+      "navigation_route": { "route": "orders", "route_id": "" }
+    },
+    {
+      "title": "حسابي",
+      "icon": "FlutterRemix.user_4_line",
+      "activeIcon": "FlutterRemix.user_4_fill",
+      "backgroundColor": "#FFFFFFFF",
+      "navigation_route": { "route": "account", "route_id": "" }
+    }
+  ]
+},
+{
   "name": "تنقّل التجارة الأنيق",
   "style": {
     "elevation": 5,
