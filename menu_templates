@@ -1,6 +1,68 @@
 [{
   "style": {
     "banner_image": null,
+    "background_color": "#FFF5F7FA",
+    "group_title_style": {"font_size":18,"font_weight":"bold","color":"#FF0F3D57"},
+    "group_desc_style": {"font_size":14,"color":"#FF5B6670"},
+    "menu_title_style": {"font_size":16,"font_weight":"w500","color":"#FF0F3D57"},
+    "menu_desc_style": {"font_size":14,"font_weight":"normal","color":"#FF5B6670"},
+    "menu_icon_color": "#FF0288D1",
+    "trailing_icon_color": "#FF0288D1",
+    "bottom_text": "الإصدار 4.0.1",
+    "social_links": [
+      {"title":"إنستغرام","icon":"FontAwesomeIcons.instagram","url":"https://instagram.com","icon_color":"#FFE1306C"},
+      {"title":"فيسبوك","icon":"FontAwesomeIcons.facebook","url":"https://facebook.com","icon_color":"#FF1877F2"},
+      {"title":"تويتر","icon":"FontAwesomeIcons.twitter","url":"https://twitter.com","icon_color":"#FF1DA1F2"},
+      {"title":"يوتيوب","icon":"FontAwesomeIcons.youtube","url":"https://youtube.com","icon_color":"#FFFF0000"}
+    ]
+  },
+  "menu_groups": [
+    {
+      "title": "عام",
+      "description": null,
+      "items": [
+        {"title":"اللغة","description":"اختر لغتك","icon":"Icons.language","icon_color":"#FF616161","trailing_icon":"Icons.arrow_forward_ios","trailing_icon_color":"#FFBDBDBD","navigation_route":null},
+        {"title":"المظهر","description":"تغيير النمط","icon":"Icons.brightness_6","icon_color":"#FF673AB7","trailing_icon":"Icons.arrow_forward_ios","trailing_icon_color":"#FF9575CD","navigation_route":null}
+      ],
+      "banner":{"src":"https://images.unsplash.com/photo-1522202176988-66273c2fd55f?crop=entropy&cs=tinysrgb&fit=max&h=250&w=1200","width":1200,"height":250,"border_radius":20,"opacity":0.95,"padding":10,"alignment":"center","box_shadow":"0px 6px 12px rgba(0,0,0,0.15)","margin":20,"background_gradient":"linear-gradient(45deg, #f3ec78, #af4261)","overlay_text_config":null,"animation":"fade","navigation_route":null}
+    },
+    {
+      "title": "الدعم",
+      "description": null,
+      "items": [
+        {"title":"الأسئلة الشائعة","description":"الأسئلة الشائعة","icon":"Icons.help_outline","icon_color":"#FF795548","trailing_icon":"Icons.arrow_forward_ios","trailing_icon_color":"#FF8D6E63","navigation_route":null},
+        {"title":"اتصل بالدعم","description":"تواصل معنا","icon":"Icons.contact_support","icon_color":"#FFFF5722","trailing_icon":"Icons.arrow_forward_ios","trailing_icon_color":"#FFFF8A65","navigation_route":{"route":"webview","route_id":"/contact"}}
+      ],
+      "banner":{"src":"https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?crop=entropy&cs=tinysrgb&fit=max&h=250&w=1200","width":1200,"height":250,"border_radius":20,"opacity":0.95,"padding":10,"alignment":"center","box_shadow":"0px 6px 12px rgba(0,0,0,0.15)","margin":20,"background_gradient":"linear-gradient(45deg, #f3ec78, #af4261)","overlay_text_config":null,"animation":"fade","navigation_route":null}
+    },
+    {
+      "title": "الحساب",
+      "description": null,
+      "items": [
+        {"title":"الطلبات","description":"تحقق من حالة طلباتك","icon":"CupertinoIcons.bookmark","icon_color":"#FF4CAF50","trailing_icon":"Icons.arrow_forward_ios","trailing_icon_color":"#FF66BB6A","navigation_route":{"route":"orders","route_id":""}},
+        {"title":"القسائم","description":"تصفح القسائم للحصول على خصم","icon":"CupertinoIcons.ticket","icon_color":"#FFFF5722","trailing_icon":"Icons.arrow_forward_ios","trailing_icon_color":"#FFFF8A65","navigation_route":null},
+        {"title":"المحفظة","description":"سجل الدخول للتحقق من رصيدك","icon":"CupertinoIcons.creditcard","icon_color":"#FF03A9F4","trailing_icon":"Icons.arrow_forward_ios","trailing_icon_color":"#FF4FC3F7","navigation_route":{"route":"wallet","route_id":""}},
+        {"title":"العروض","description":"احجز أكثر من 2000₹ لتصبح عضو","icon":"CupertinoIcons.heart","icon_color":"#FFFF9800","trailing_icon":"Icons.arrow_forward_ios","trailing_icon_color":"#FFFFB74D","navigation_route":{"route":"offers","route_id":""}},
+        {"title":"محفظة الأحداث","description":"خصص تجربتك في تطبيق الحدث","icon":"CupertinoIcons.star","icon_color":"#FF673AB7","trailing_icon":"Icons.arrow_forward_ios","trailing_icon_color":"#FF9575CD","navigation_route":null},
+        {"title":"المفضلة","description":"سجل الدخول لعرض المفضلة","icon":"CupertinoIcons.heart","icon_color":"#FFE91E63","trailing_icon":"Icons.arrow_forward_ios","trailing_icon_color":"#FFF06292","navigation_route":{"route":"products","route_id":""}},
+        {"title":"المساعدة والدعم","description":"الحصول على مساعدة لحسابك أو طلباتك","icon":"CupertinoIcons.question_circle","icon_color":"#FF795548","trailing_icon":"Icons.arrow_forward_ios","trailing_icon_color":"#FF8D6E63","navigation_route":null}
+      ],
+      "banner":{"src":"https://images.unsplash.com/photo-1522202176988-66273c2fd55f?crop=entropy&cs=tinysrgb&fit=max&h=250&w=1200","width":1200,"height":250,"border_radius":20,"opacity":0.95,"padding":10,"alignment":"center","box_shadow":"0px 6px 12px rgba(0,0,0,0.15)","margin":20,"background_gradient":"linear-gradient(45deg, #f3ec78, #af4261)","overlay_text_config":null,"animation":"fade","navigation_route":null}
+    }
+  ],
+  "layout":"Layout3",
+  "actions":[
+    {"title":"الإشعارات","icon":"CupertinoIcons.bell","navigation_route":null,"icon_color":"#FF000000"},
+    {"title":"المفضلة","icon":"CupertinoIcons.heart","navigation_route":null,"icon_color":"#FF000000"},
+    {"title":"السلة","icon":"CupertinoIcons.bag","navigation_route":null,"icon_color":"#FF000000"}
+  ],
+  "floating_action_button":null,
+  "zoom_drawer":null,
+  "categories":null
+},
+{
+  "style": {
+    "banner_image": null,
     "background_color": "#FFF5F5F7",
     "group_title_style": null,
     "group_desc_style": null,
