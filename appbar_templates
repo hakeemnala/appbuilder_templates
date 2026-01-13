@@ -1,6 +1,142 @@
 [{
   "layout": "gradient_background",
   "title_config": {
+    "text": "سبورت فليكس",
+    "title_style": {
+      "font_size": 30,
+      "font_weight": "w800",
+      "color": "#FFFFFFFF",
+      "letter_spacing": 0.3,
+      "font_family": "Cairo",
+      "text_shadow": {
+        "color": "#66000000",
+        "offsetX": 0,
+        "offsetY": 3,
+        "blur_radius": 8
+      },
+      "decoration": null
+    },
+    "animated_text_config": {
+      "animation_type": "fade",
+      "speed": 160,
+      "repeat_count": 0,
+      "pause_duration": 300,
+      "display_full_text_on_tap": true,
+      "stop_pause_on_tap": true,
+      "is_repeating_animation": false,
+      "repeat_forever": false,
+      "colors": ["#FFFFFFFF", "#FFFFF59D", "#FFFFFFFF"]
+    },
+    "position": "center",
+    "show_title": true,
+    "height": null
+  },
+  "flexible_space_bar_title_config": null,
+  "background_color": "#FF0D47A1",
+  "status_bar_color": "#FF0B3D91",
+  "foreground_color": "#FFFFFFFF",
+  "background_image": null,
+  "gradient_enabled": true,
+  "gradient_start_color": "#FF1E88E5",
+  "gradient_end_color": "#FF0D47A1",
+  "gradient_begin": "topLeft",
+  "gradient_end": "bottomRight",
+  "drawer": false,
+  "drawer_icon": "Icons.view_headline",
+  "floating": false,
+  "pinned": true,
+  "snap": false,
+  "stretch": false,
+  "expanded_height": 190,
+  "search_bar": {
+    "enabled": true,
+    "placeholder": "ابحث في سبورت فليكس...",
+    "icon": "Icons.search",
+    "barcode_scan": false,
+    "barcode_icon": "Icons.qr_code",
+    "background_color": "#33FFFFFF",
+    "icon_color": "#FFFFFFFF",
+    "border_radius": 14
+  },
+  "bottom": {
+    "enabled": true,
+    "preferred_size": 50,
+    "widget": "TabBar",
+    "tab_bar": {
+      "enabled": true,
+      "is_scrollable": true,
+      "indicator_color": "#FFFFD54F",
+      "indicator_weight": 3,
+      "indicator_size": "tab",
+      "label_color": "#FFFFFFFF",
+      "unselected_label_color": "#B3FFFFFF",
+      "tabs": [
+        {
+          "label": "أحذية",
+          "icon": "Icons.directions_run",
+          "navigation_route": null,
+          "background_image": "",
+          "background_color": null
+        },
+        {
+          "label": "ملابس",
+          "icon": "Icons.checkroom",
+          "navigation_route": null,
+          "background_image": "",
+          "background_color": null
+        },
+        {
+          "label": "إكسسوارات",
+          "icon": "Icons.sports_baseball",
+          "navigation_route": null,
+          "background_image": "",
+          "background_color": null
+        }
+      ]
+    }
+  },
+  "logo": true,
+  "logo_asset": "assets/sportflex_logo.png",
+  "barcode": false,
+  "border_radius": 16,
+  "actions": [
+    {
+      "title": "عروض",
+      "icon": "Icons.local_offer",
+      "navigation_route": { "route": "deals", "route_id": "" },
+      "icon_color": "#FFFFFFFF"
+    }
+  ],
+  "popup_menus": [
+    {
+      "title": "مساعدة",
+      "value": "help",
+      "icon": "Icons.help_outline",
+      "navigation_route": { "route": "help", "route_id": "" },
+      "icon_color": "#FFFFFFFF"
+    }
+  ],
+  "leading_icon": "Icons.arrow_forward",
+  "center_title": true,
+  "clipper_config": {
+    "enabled": true,
+    "clipper_type": "wave",
+    "wave_height": 26,
+    "notch_count": null,
+    "notch_radius": null,
+    "zigzag_count": null,
+    "zigzag_height": null,
+    "stair_count": null,
+    "stair_height": null
+  },
+  "background_widget": null,
+  "collapse_mode": "pin",
+  "status_bar_icon_brightness": "Brightness.light",
+  "status_bar_brightness": "Brightness.light"
+},
+{
+  "layout": "gradient_background",
+  "title_config": {
     "text": "مستكشف الكون",
     "title_style": {
       "font_size": 28,
