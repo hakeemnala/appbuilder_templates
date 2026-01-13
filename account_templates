@@ -1,6 +1,280 @@
 
 [{
   "style": {
+    "background_color": "#FF111827",
+    "group_title_style": {
+      "font_size": 15,
+      "font_weight": "w800",
+      "color": "#FF22D3EE",
+      "letter_spacing": 0,
+      "font_family": "Cairo",
+      "text_shadow": null,
+      "decoration": null
+    },
+    "group_desc_style": null,
+    "menu_title_style": {
+      "font_size": 16,
+      "font_weight": "bold",
+      "color": "#FFF9FAFB",
+      "letter_spacing": 0,
+      "font_family": "Cairo",
+      "text_shadow": null,
+      "decoration": null
+    },
+    "menu_desc_style": {
+      "font_size": 13,
+      "font_weight": "normal",
+      "color": "#FF9CA3AF",
+      "letter_spacing": 0,
+      "font_family": "Cairo",
+      "text_shadow": null,
+      "decoration": null
+    },
+    "menu_icon_color": "#FF22D3EE",
+    "trailing_icon_color": "#FF374151",
+    "bottom_text": "الإصدار 3.3.0 • الوضع الليلي",
+    "social_links": [
+      {
+        "title": "دعم واتساب",
+        "icon": "FontAwesomeIcons.whatsapp",
+        "url": "[https://wa.me/123456789](https://wa.me/123456789)",
+        "icon_color": "#FF25D366"
+      },
+      {
+        "title": "إنستغرام",
+        "icon": "FontAwesomeIcons.instagram",
+        "url": "[https://instagram.com](https://instagram.com)",
+        "icon_color": "#FFE1306C"
+      },
+      {
+        "title": "يوتيوب",
+        "icon": "FontAwesomeIcons.youtube",
+        "url": "[https://youtube.com](https://youtube.com)",
+        "icon_color": "#FFFF0000"
+      }
+    ],
+    "trailing_icon": null
+  },
+  "menu_groups": [
+    {
+      "title": "الأمان والحماية",
+      "items": [
+        {
+          "title": "القياسات الحيوية",
+          "description": "فتح القفل بالوجه أو البصمة",
+          "navigation_route": {
+            "route": "security_biometric",
+            "route_id": ""
+          },
+          "icon": "CommunityMaterialIcons.fingerprint",
+          "icon_color": "#FF22D3EE",
+          "trailing_icon": "CommunityMaterialIcons.chevron_left",
+          "trailing_icon_color": "#FF6B7280"
+        },
+        {
+          "title": "قفل التطبيق",
+          "description": "تعيين رمز PIN للدخول",
+          "navigation_route": {
+            "route": "security_pin",
+            "route_id": ""
+          },
+          "icon": "CommunityMaterialIcons.lock_outline",
+          "icon_color": "#FFC084FC",
+          "trailing_icon": "CommunityMaterialIcons.chevron_left",
+          "trailing_icon_color": "#FF6B7280"
+        },
+        {
+          "title": "ضوابط الخصوصية",
+          "description": "إدارة البيانات والموافقات",
+          "navigation_route": {
+            "route": "privacy_controls",
+            "route_id": ""
+          },
+          "icon": "CommunityMaterialIcons.incognito",
+          "icon_color": "#FF22D3EE",
+          "trailing_icon": "CommunityMaterialIcons.chevron_left",
+          "trailing_icon_color": "#FF6B7280"
+        }
+      ],
+      "banner": null
+    },
+    {
+      "title": "المدفوعات",
+      "items": [
+        {
+          "title": "رصيد المحفظة",
+          "description": "12,450 ريال متاح",
+          "navigation_route": {
+            "route": "payments_wallet",
+            "route_id": ""
+          },
+          "icon": "CommunityMaterialIcons.wallet_outline",
+          "icon_color": "#FF34D399",
+          "trailing_icon": "CommunityMaterialIcons.chevron_left",
+          "trailing_icon_color": "#FF6B7280"
+        },
+        {
+          "title": "أمان الدفع",
+          "description": "حماية 3D وقواعد OTP",
+          "navigation_route": {
+            "route": "security_payments",
+            "route_id": ""
+          },
+          "icon": "CommunityMaterialIcons.shield_check",
+          "icon_color": "#FF22D3EE",
+          "trailing_icon": "CommunityMaterialIcons.chevron_left",
+          "trailing_icon_color": "#FF6B7280"
+        },
+        {
+          "title": "الدفع التلقائي",
+          "description": "دورات الفوترة والحدود",
+          "navigation_route": {
+            "route": "payments_autopay",
+            "route_id": ""
+          },
+          "icon": "CommunityMaterialIcons.calendar_refresh",
+          "icon_color": "#FF22D3EE",
+          "trailing_icon": "CommunityMaterialIcons.chevron_left",
+          "trailing_icon_color": "#FF6B7280"
+        }
+      ],
+      "banner": null
+    },
+    {
+      "title": "تفضيلات التطبيق",
+      "items": [
+        {
+          "title": "اللغة والمنطقة",
+          "description": "العربية (السعودية)، ريال",
+          "navigation_route": {
+            "route": "prefs_locale",
+            "route_id": ""
+          },
+          "icon": "CommunityMaterialIcons.translate",
+          "icon_color": "#FFFBBF24",
+          "trailing_icon": "CommunityMaterialIcons.chevron_left",
+          "trailing_icon_color": "#FF6B7280"
+        },
+        {
+          "title": "المظهر",
+          "description": "فاتح / داكن / النظام",
+          "navigation_route": {
+            "route": "prefs_theme",
+            "route_id": ""
+          },
+          "icon": "CommunityMaterialIcons.theme_light_dark",
+          "icon_color": "#FF22D3EE",
+          "trailing_icon": "CommunityMaterialIcons.chevron_left",
+          "trailing_icon_color": "#FF6B7280"
+        },
+        {
+          "title": "الإشعارات",
+          "description": "تنبيهات الطلبات والعروض",
+          "navigation_route": {
+            "route": "prefs_notifications",
+            "route_id": ""
+          },
+          "icon": "CommunityMaterialIcons.bell_ring_outline",
+          "icon_color": "#FF22D3EE",
+          "trailing_icon": "CommunityMaterialIcons.chevron_left",
+          "trailing_icon_color": "#FF6B7280"
+        }
+      ],
+      "banner": null
+    }
+  ],
+  "banner": null,
+  "layout": "Layout4",
+  "floating_action_button": {
+    "enabled": true,
+    "icon": "CommunityMaterialIcons.chat_question_outline",
+    "icon_color": "#FF000000",
+    "background_color": "#FF22D3EE",
+    "position": "bottomRight",
+    "navigation_route": {
+      "route": "support_chat",
+      "route_id": ""
+    },
+    "elevation": 10,
+    "mini": false,
+    "foreground_color": null,
+    "is_extended": false,
+    "label": ""
+  },
+  "app_bar_config": {
+    "layout": "gradient_background",
+    "title_config": null,
+    "flexible_space_bar_title_config": null,
+    "background_color": null,
+    "status_bar_color": null,
+    "foreground_color": null,
+    "background_image": null,
+    "gradient_enabled": true,
+    "gradient_start_color": "#FF1F2937",
+    "gradient_end_color": "#FF111827",
+    "gradient_begin": "topCenter",
+    "gradient_end": "bottomCenter",
+    "drawer": true,
+    "drawer_icon": "FluentIcons.list_16_regular",
+    "floating": false,
+    "pinned": true,
+    "snap": false,
+    "stretch": false,
+    "expanded_height": 96,
+    "search_bar": {
+      "enabled": true,
+      "placeholder": "ابحث في الإعدادات...",
+      "icon": "FlutterRemix.search_2_line",
+      "barcode_scan": false,
+      "barcode_icon": "barcode",
+      "background_color": "#FF1F2937",
+      "icon_color": "#FF22D3EE",
+      "border_radius": 16
+    },
+    "bottom": {
+      "enabled": false,
+      "preferred_size": 44,
+      "widget": "SearchBar",
+      "tab_bar": null
+    },
+    "logo": false,
+    "logo_asset": null,
+    "barcode": false,
+    "border_radius": 12,
+    "actions": [],
+    "popup_menus": [],
+    "leading_icon": null,
+    "center_title": false,
+    "clipper_config": null,
+    "background_widget": null,
+    "collapse_mode": "parallax",
+    "status_bar_icon_brightness": "Brightness.light",
+    "status_bar_brightness": "Brightness.light"
+  },
+  "margin": {
+    "top": 10,
+    "bottom": 0,
+    "left": 10,
+    "right": 10
+  },
+  "padding": null,
+  "card_config": {
+    "color": "#FF1F2937",
+    "shadow_color": "#40000000",
+    "surface_tint_color": "#FF1F2937",
+    "elevation": 2,
+    "border_radius": 12,
+    "border_on_foreground": true,
+    "margin": {
+      "top": 4.5,
+      "bottom": 4,
+      "left": 4,
+      "right": 4
+    }
+  }
+},
+  {
+  "style": {
     "background_color": "#FFF8F9FA",
     "group_title_style": {
       "font_size": 22,
