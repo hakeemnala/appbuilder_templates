@@ -1,5 +1,231 @@
 [
   {
+    "unique_id": "list-stylish-time-0006-f6g7-h8i9-j0k1",
+    "name": "شكّلِي ونحّتي",
+    "title": "تحوّل القوام",
+    "block_type": "Banner",
+    "layout": "Slider",
+    "style": "style_2",
+    "height": 580,
+    "width": 800,
+    "border_radius": 8,
+    "background_color": "#FFFFFFFF",
+    "margin": {
+      "top": 8,
+      "bottom": 10,
+      "left": 8,
+      "right": 8
+    },
+    "padding": {
+      "top": 16,
+      "bottom": 16,
+      "left": 16,
+      "right": 16
+    },
+    "background_image": null,
+    "heading": {
+      "text": "نحّتي قوامك الآن مباشرة",
+      "title_style": {
+        "font_size": 28,
+        "font_weight": "bold",
+        "color": "#FFA86A68",
+        "letter_spacing": 1,
+        "font_family": "Oswald",
+        "text_shadow": null,
+        "decoration": null
+      },
+      "animated_text_config": null,
+      "position": "top-center",
+      "show_title": true,
+      "height": null
+    },
+    "description": {
+      "text": "أبرزي منحنياتك مع مشدّات نسائية فاخرة—خصم حتى 50% اليوم!",
+      "title_style": {
+        "font_size": 18,
+        "font_weight": "normal",
+        "color": "#FF8C7A78",
+        "letter_spacing": 0.4,
+        "font_family": "Roboto",
+        "text_shadow": null,
+        "decoration": null
+      },
+      "animated_text_config": null,
+      "position": "bottom-center",
+      "show_title": true,
+      "height": null
+    },
+    "children": [
+      {
+        "src": "https://raw.githubusercontent.com/faiza2323/taqnix_images/refs/heads/main/arabic_img10.png",
+        "width": 250,
+        "height": 250,
+        "border_radius": 8,
+        "opacity": 1,
+        "heading": null,
+        "description": null,
+        "navigation_route": {
+          "route": "/shapeAndSculpt",
+          "route_id": "9901"
+        },
+        "background_color": "#FFF5F5F5",
+        "padding": {
+          "top": 8,
+          "bottom": 8,
+          "left": 8,
+          "right": 8
+        },
+        "margin": null,
+        "box_shadow": null,
+        "gradient": null
+      },
+      {
+        "src": "https://raw.githubusercontent.com/faiza2323/taqnix_images/refs/heads/main/arabic_img10.png",
+        "width": 250,
+        "height": 250,
+        "border_radius": 8,
+        "opacity": 1,
+        "heading": null,
+        "description": null,
+        "navigation_route": {
+          "route": "/shapeAndSculpt",
+          "route_id": "9902"
+        },
+        "background_color": "#FFF5F5F5",
+        "padding": {
+          "top": 8,
+          "bottom": 8,
+          "left": 8,
+          "right": 8
+        },
+        "margin": null,
+        "box_shadow": null,
+        "gradient": null
+      },
+      {
+        "src": "https://raw.githubusercontent.com/faiza2323/taqnix_images/refs/heads/main/arabic_img10.png",
+        "width": 250,
+        "height": 250,
+        "border_radius": 8,
+        "opacity": 1,
+        "heading": null,
+        "description": null,
+        "navigation_route": {
+          "route": "/shapeAndSculpt",
+          "route_id": "9903"
+        },
+        "background_color": "#FFF5F5F5",
+        "padding": {
+          "top": 8,
+          "bottom": 8,
+          "left": 8,
+          "right": 8
+        },
+        "margin": null,
+        "box_shadow": null,
+        "gradient": null
+      },
+      {
+        "src": "https://raw.githubusercontent.com/faiza2323/taqnix_images/refs/heads/main/arabic_img10.png",
+        "width": 250,
+        "height": 250,
+        "border_radius": 8,
+        "opacity": 1,
+        "heading": null,
+        "description": null,
+        "navigation_route": {
+          "route": "/shapeAndSculpt",
+          "route_id": "9904"
+        },
+        "background_color": "#FFF5F5F5",
+        "padding": {
+          "top": 8,
+          "bottom": 8,
+          "left": 8,
+          "right": 8
+        },
+        "margin": null,
+        "box_shadow": null,
+        "gradient": null
+      }
+    ],
+    "animated_text_config": null,
+    "carousel_options": {
+      "height": 197,
+      "aspect_ratio": 1.55,
+      "viewport_fraction": 0.88,
+      "initial_page": 0,
+      "enable_infinite_scroll": true,
+      "animate_to_closest": true,
+      "reverse": false,
+      "auto_play": true,
+      "auto_play_interval": 4,
+      "auto_play_animation_duration": 800,
+      "auto_play_curve": "Curves.linear",
+      "enlarge_center_page": true,
+      "page_snapping": true,
+      "scroll_direction": "Axis.horizontal",
+      "pause_auto_play_on_touch": true,
+      "pause_auto_play_on_manual_navigate": true,
+      "pause_auto_play_in_finite_scroll": false,
+      "enlarge_strategy": "CenterPageEnlargeStrategy.height",
+      "enlarge_factor": 0.25,
+      "disable_center": false,
+      "pad_ends": true,
+      "clip_behavior": "Clip.none",
+      "indicator_options": {
+        "show": true,
+        "show_below": false,
+        "effect": "ScrollingDotsEffect",
+        "active_dot_color": "#FFA86A68",
+        "dot_color": "#FFDDDDDD",
+        "dot_height": 8,
+        "dot_width": 8,
+        "expansion_factor": 3,
+        "spacing": 6,
+        "position": "bottom-center",
+        "radius": 10,
+        "stroke_width": 1
+      }
+    },
+    "grid_options": null,
+    "countdown_timer_config": {
+      "enabled": true,
+      "style": "style_star",
+      "background_color": "#FFFFFFFF",
+      "text_config": {
+        "text": "ينتهي العرض خلال",
+        "title_style": {
+          "font_size": 18,
+          "font_weight": "bold",
+          "color": "#FFA86A68",
+          "letter_spacing": 0.6,
+          "font_family": "Oswald",
+          "text_shadow": null,
+          "decoration": null
+        },
+        "animated_text_config": null,
+        "position": "center",
+        "show_title": true,
+        "height": null
+      },
+      "separator_color": "#FFA86A68",
+      "font_size": 16,
+      "border_radius": 8,
+      "padding": {
+        "top": 8,
+        "bottom": 8,
+        "left": 8,
+        "right": 8
+      },
+      "sale_date": "2027-05-25T23:59:59Z"
+    },
+    "child_conf": null,
+    "background_widget_conf": null,
+    "clipper_config": null,
+    "navigation_route": null
+  },
+  {
     "unique_id": "banner-femmefit-001",
     "name": "",
     "title": "مقدمة فيم فيت",
