@@ -1,5 +1,118 @@
 [
   {
+    "unique_id": "simple-list-0010-j0k1-l2m3-n4o5",
+    "name": "درجات طبيعية",
+    "title": "خشب وأبيض",
+    "block_type": "Banner",
+    "layout": "List",
+    "style": "style_2",
+    "height": 400,
+    "width": 820,
+    "border_radius": 8,
+    "background_color": "#FFE8CA42",
+    "margin": {
+      "top": 8,
+      "bottom": 10,
+      "left": 8,
+      "right": 8
+    },
+    "padding": {
+      "top": 18,
+      "bottom": 18,
+      "left": 18,
+      "right": 18
+    },
+    "background_image": null,
+    "heading": {
+      "text": "طبيعي ومنعش",
+      "title_style": {
+        "font_size": 24,
+        "font_weight": "bold",
+        "color": "#FFFFFFFF",
+        "letter_spacing": 1,
+        "font_family": "Montserrat",
+        "text_shadow": null,
+        "decoration": null
+      },
+      "animated_text_config": null,
+      "position": "top-center",
+      "show_title": true,
+      "height": null
+    },
+    "description": {
+      "text": "أثاث بنقشة الخشب، أغطية بلون أبيض مائل للسكري، وخطوط بسيطة لإحساس طبيعي هادئ.",
+      "title_style": {
+        "font_size": 15,
+        "font_weight": "normal",
+        "color": "#FF000000",
+        "letter_spacing": 0.4,
+        "font_family": "Roboto",
+        "text_shadow": null,
+        "decoration": null
+      },
+      "animated_text_config": null,
+      "position": "center",
+      "show_title": true,
+      "height": null
+    },
+    "children": [
+      {
+        "src": "https://raw.githubusercontent.com/faiza2323/taqnix_images/refs/heads/main/arabic_img11.jpg",
+        "width": 250,
+        "height": 250,
+        "border_radius": 8,
+        "opacity": 1,
+        "heading": null,
+        "description": null,
+        "navigation_route": {
+          "route": "/springDelights",
+          "route_id": "9802"
+        },
+        "background_color": "#FFFCE4EC",
+        "padding": {
+          "top": 8,
+          "bottom": 8,
+          "left": 8,
+          "right": 8
+        },
+        "margin": null,
+        "box_shadow": null,
+        "gradient": null
+      },
+      {
+        "src": "https://raw.githubusercontent.com/faiza2323/taqnix_images/refs/heads/main/arabic_img11.jpg",
+        "width": 250,
+        "height": 250,
+        "border_radius": 8,
+        "opacity": 1,
+        "heading": null,
+        "description": null,
+        "navigation_route": {
+          "route": "/springDelights",
+          "route_id": "9802"
+        },
+        "background_color": "#FFFCE4EC",
+        "padding": {
+          "top": 8,
+          "bottom": 8,
+          "left": 8,
+          "right": 8
+        },
+        "margin": null,
+        "box_shadow": null,
+        "gradient": null
+      }
+    ],
+    "animated_text_config": null,
+    "carousel_options": null,
+    "grid_options": null,
+    "countdown_timer_config": null,
+    "child_conf": null,
+    "background_widget_conf": null,
+    "clipper_config": null,
+    "navigation_route": null
+  },
+  {
     "unique_id": "simple-list-0002-b2c3-d4e5-f6g7",
     "name": "غروب الخوخ",
     "title": "درجات المرجان",
