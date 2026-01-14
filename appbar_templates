@@ -1,6 +1,128 @@
 [{
   "layout": "gradient_background",
   "title_config": {
+    "text": "الساعة الذهبية",
+    "title_style": {
+      "font_size": 27,
+      "font_weight": "bold",
+      "color": "#FFFFFFFF",
+      "letter_spacing": 1.4,
+      "font_family": "Roboto",
+      "text_shadow": { "color": "#66000000", "offsetX": 1, "offsetY": 1, "blur_radius": 3 },
+      "decoration": null
+    },
+    "animated_text_config": {
+      "animation_type": "flicker",
+      "speed": 120,
+      "repeat_count": 0,
+      "pause_duration": 500,
+      "display_full_text_on_tap": true,
+      "stop_pause_on_tap": true,
+      "is_repeating_animation": true,
+      "repeat_forever": true,
+      "colors": []
+    },
+    "position": "center",
+    "show_title": true,
+    "height": null
+  },
+  "flexible_space_bar_title_config": null,
+
+  "background_color": "#FF0B0F14",
+  "status_bar_color": "#FF070A0D",
+  "foreground_color": "#FFFFFFFF",
+
+  "background_image": {
+    "src": "assets/patterns/golden_pattern.png",
+    "width": null,
+    "height": null,
+    "border_radius": null
+  },
+
+  "gradient_enabled": true,
+  "gradient_start_color": "#FF0B0F14",
+  "gradient_end_color": "#FF2B1A12",
+  "gradient_begin": "topLeft",
+  "gradient_end": "bottomRight",
+
+  "drawer": true,
+  "drawer_icon": "FlutterRemix.grid_fill",
+  "floating": false,
+  "pinned": true,
+  "snap": false,
+  "stretch": false,
+  "expanded_height": 96,
+
+  "search_bar": {
+    "enabled": true,
+    "placeholder": "ابحث في الساعة الذهبية...",
+    "icon": "FlutterRemix.search_eye_line",
+    "barcode_scan": false,
+    "barcode_icon": "barcode",
+    "background_color": "#26FFFFFF",
+    "icon_color": "#FFFFD54F",
+    "border_radius": 22
+  },
+
+  "bottom": {
+    "enabled": true,
+    "preferred_size": 54,
+    "widget": "TabBar",
+    "tab_bar": {
+      "enabled": true,
+      "is_scrollable": true,
+      "indicator_color": "#FFFFD54F",
+      "indicator_weight": 3,
+      "indicator_size": "label",
+      "label_color": "#FFFFFFFF",
+      "unselected_label_color": "#99FFFFFF",
+      "tabs": [
+        { "label": "جديد", "icon": "FlutterRemix.sparkling_fill", "navigation_route": null, "background_image": "", "background_color": null },
+        { "label": "الأفضل", "icon": "FlutterRemix.star_smile_fill", "navigation_route": null, "background_image": "", "background_color": null },
+        { "label": "تخفيضات", "icon": "FlutterRemix.price_tag_3_fill", "navigation_route": null, "background_image": "", "background_color": null }
+      ]
+    }
+  },
+
+  "logo": true,
+  "logo_asset": "assets/gold_logo.svg",
+  "barcode": false,
+  "border_radius": 12,
+
+  "actions": [
+    {
+      "title": "السلة",
+      "icon": "FlutterRemix.shopping_cart_2_fill",
+      "navigation_route": { "route": "cart", "route_id": "" },
+      "icon_color": "#FFFFD54F"
+    }
+  ],
+
+  "popup_menus": [],
+
+  "leading_icon": "FlutterRemix.arrow_left_s_line",
+  "center_title": true,
+
+  "clipper_config": {
+    "enabled": true,
+    "clipper_type": "wavy_diagonal",
+    "wave_height": 24,
+    "notch_count": null,
+    "notch_radius": null,
+    "zigzag_count": null,
+    "zigzag_height": null,
+    "stair_count": null,
+    "stair_height": null
+  },
+
+  "background_widget": null,
+  "collapse_mode": "pin",
+  "status_bar_icon_brightness": "Brightness.light",
+  "status_bar_brightness": "Brightness.dark"
+},
+{
+  "layout": "gradient_background",
+  "title_config": {
     "text": "نسيم السوربيه",
     "title_style": {
       "font_size": 26,
