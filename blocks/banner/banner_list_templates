@@ -1,4 +1,91 @@
-[
+[{
+  "unique_id": "list-banner-0019-a2b3-c4d5-e6f7",
+  "name": "Morning Mist",
+  "title": "خفيف ومنعش",
+  "block_type": "Banner",
+  "layout": "List",
+  "style": "style_1",
+  "height": 400,
+  "width": 800,
+  "border_radius": 8,
+  "background_color": "#FFF8F9FB",
+  "margin": { "top": 10, "bottom": 15, "left": 10, "right": 10 },
+  "padding": { "top": 18, "bottom": 18, "left": 18, "right": 18 },
+  "background_image": null,
+  "heading": {
+    "text": "فجرٌ هادئ",
+    "title_style": {
+      "font_size": 24,
+      "font_weight": "bold",
+      "color": "#FF424242",
+      "letter_spacing": 1,
+      "font_family": "Oswald",
+      "text_shadow": { "color": "#55000000", "offsetX": 2, "offsetY": 2, "blur_radius": 4 },
+      "decoration": null
+    },
+    "animated_text_config": null,
+    "position": "top-center",
+    "show_title": true,
+    "height": null
+  },
+  "description": {
+    "text": "درجات رماديّة باهتة وبيض ناعم لالتقاط هدوء سماء الصباح الباكر.",
+    "title_style": {
+      "font_size": 15,
+      "font_weight": "normal",
+      "color": "#FF757575",
+      "letter_spacing": 0.4,
+      "font_family": "Roboto",
+      "text_shadow": { "color": "#44000000", "offsetX": 1, "offsetY": 2, "blur_radius": 3 },
+      "decoration": null
+    },
+    "animated_text_config": null,
+    "position": "center",
+    "show_title": true,
+    "height": null
+  },
+  "children": [
+    {
+      "src": "https://raw.githubusercontent.com/faiza2323/taqnix_images/refs/heads/main/arabic_img16.png",
+      "width": 250,
+      "height": 250,
+      "border_radius": 8,
+      "opacity": 1,
+      "heading": null,
+      "description": null,
+      "navigation_route": { "route": "/springDelights", "route_id": "9802" },
+      "background_color": "#FFFCE4EC",
+      "padding": { "top": 8, "bottom": 8, "left": 8, "right": 8 },
+      "margin": null,
+      "box_shadow": null,
+      "gradient": null
+    },
+    {
+      "src": "https://raw.githubusercontent.com/faiza2323/taqnix_images/refs/heads/main/arabic_img16.png2",
+      "width": 250,
+      "height": 250,
+      "border_radius": 8,
+      "opacity": 1,
+      "heading": null,
+      "description": null,
+      "navigation_route": { "route": "/springDelights", "route_id": "9802" },
+      "background_color": "#FFFCE4EC",
+      "padding": { "top": 8, "bottom": 8, "left": 8, "right": 8 },
+      "margin": null,
+      "box_shadow": null,
+      "gradient": null
+    }
+  ],
+  "animated_text_config": null,
+  "carousel_options": null,
+  "grid_options": null,
+  "countdown_timer_config": null,
+  "child_conf": null,
+  "background_widget_conf": null,
+  "clipper_config": null,
+  "navigation_route": null
+},
+
   {
     "unique_id": "simple-list-0010-j0k1-l2m3-n4o5",
     "name": "درجات طبيعية",
