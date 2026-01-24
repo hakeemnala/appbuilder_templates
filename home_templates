@@ -1,4 +1,390 @@
-[{"layout":"","style":null,"block":[{"unique_id":"list-banner-0005-e5f6-g7h8-i9j0","name":"ملاذ الأعشاب","title":"المنزل الأخضر","block_type":"Banner","layout":"List","style":"style_1","height":178,"width":477,"border_radius":10,"background_color":"#FFFBFCFF","margin":{"top":0,"bottom":15,"left":0,"right":0},"padding":{"top":20,"bottom":20,"left":0,"right":0},"background_image":null,"heading":{"text":"سحر النباتات","title_style":{"font_size":22,"font_weight":"bold","color":"#FFD20C0C","letter_spacing":1,"font_family":"Oswald","text_shadow":{"color":"#99000000","offsetX":2,"offsetY":2,"blur_radius":3},"decoration":null},"animated_text_config":null,"position":"top-center","show_title":true,"height":null},"description":{"text":"أعشاب مزروعة في أوعية، وأصص ريفية، ونقوش طبيعية تمنح أجواءً منعشة.","title_style":{"font_size":16,"font_weight":"normal","color":"#FF002200","letter_spacing":0.4,"font_family":"Roboto","text_shadow":{"color":"#66000000","offsetX":1,"offsetY":2,"blur_radius":3},"decoration":null},"animated_text_config":null,"position":"center","show_title":true,"height":null},"children":[{"src":"https://raw.githubusercontent.com/faiza2323/taqnix_images/refs/heads/main/arabic_img45.png","width":120.21052631578947,"height":228,"border_radius":4,"opacity":1,"heading":null,"description":null,"navigation_route":{"route":"/springDelights","route_id":"9801"},"background_color":"#FFFCE4EC","padding":{"top":8,"bottom":8,"left":8,"right":8},"margin":null,"box_shadow":null,"gradient":null},{"src":"https://raw.githubusercontent.com/faiza2323/taqnix_images/refs/heads/main/arabic_img45.png","width":93.57894736842105,"height":217,"border_radius":4,"opacity":1,"heading":null,"description":null,"navigation_route":{"route":"/springDelights","route_id":"9801"},"background_color":"#FFFCE4EC","padding":{"top":1.5,"bottom":8,"left":8,"right":8},"margin":{"top":0,"bottom":0,"left":0,"right":0},"box_shadow":null,"gradient":null}],"animated_text_config":null,"carousel_options":null,"grid_options":null,"countdown_timer_config":null,"child_conf":null,"background_widget_conf":null,"clipper_config":null,"navigation_route":null}],"actions":null,"floating_action_button":null},{"layout":"","style":null,"block":[{"unique_id":"banner-femmefit-001","name":"","title":"FemmeFit Intro","block_type":"Banner","layout":"Slider","style":"style_2","height":447,"width":900,"border_radius":12,"background_color":"#FFFFFFFF","margin":null,"padding":null,"background_image":null,"heading":null,"description":null,"children":[{"src":"https://raw.githubusercontent.com/faiza2323/taqnix_images/refs/heads/main/zomato_img4.png","width":219.4736842105263,"height":198,"border_radius":0,"opacity":1,"heading":null,"description":null,"navigation_route":{"route":"category","route_id":"81"},"background_color":"#00000000","padding":null,"margin":null,"box_shadow":null,"gradient":null},{"src":"https://raw.githubusercontent.com/faiza2323/taqnix_images/refs/heads/main/zomato_img5.png","width":219.4736842105263,"height":198,"border_radius":0,"opacity":1,"heading":null,"description":null,"navigation_route":{"route":"category","route_id":"97"},"background_color":"#00000000","padding":null,"margin":null,"box_shadow":null,"gradient":null},{"src":"https://raw.githubusercontent.com/faiza2323/taqnix_images/refs/heads/main/zomato_img4.png","width":219.4736842105263,"height":198,"border_radius":0,"opacity":1,"heading":null,"description":null,"navigation_route":{"route":"category","route_id":"107"},"background_color":"#00000000","padding":null,"margin":null,"box_shadow":null,"gradient":null},{"src":"https://raw.githubusercontent.com/faiza2323/taqnix_images/refs/heads/main/zomato_img4.png","width":219.4736842105263,"height":198,"border_radius":0,"opacity":1,"heading":null,"description":null,"navigation_route":{"route":"category","route_id":"86"},"background_color":"#00000000","padding":null,"margin":null,"box_shadow":null,"gradient":null}],"animated_text_config":null,"carousel_options":{"height":330,"aspect_ratio":1.7777777777777777,"viewport_fraction":1,"initial_page":0,"enable_infinite_scroll":true,"animate_to_closest":true,"reverse":false,"auto_play":true,"auto_play_interval":1,"auto_play_animation_duration":800,"auto_play_curve":"Curves.fastOutSlowIn","enlarge_center_page":false,"page_snapping":true,"scroll_direction":"Axis.horizontal","pause_auto_play_on_touch":true,"pause_auto_play_on_manual_navigate":true,"pause_auto_play_in_finite_scroll":false,"enlarge_strategy":"CenterPageEnlargeStrategy.scale","enlarge_factor":0.3,"disable_center":false,"pad_ends":true,"clip_behavior":"Clip.hardEdge","indicator_options":null},"grid_options":{"grid_delegate":"SliverGridDelegateWithFixedCrossAxisCount","cross_axis_count":1,"max_cross_axis_extent":140,"main_axis_spacing":0,"cross_axis_spacing":0,"child_aspect_ratio":3,"staggered_tile_layout":null,"scroll_direction":"Axis.vertical","reverse":false,"shrink_wrap":false,"physics":"AlwaysScrollableScrollPhysics","padding":null},"countdown_timer_config":null,"child_conf":null,"background_widget_conf":null,"clipper_config":null,"navigation_route":null},{"unique_id":"banner-femmefit-001","name":"","title":"Featured this week","block_type":"Banner","layout":"Scroll","style":"style_2","height":275,"width":540,"border_radius":0,"background_color":"#FFFFFFFF","margin":{"top":0,"bottom":5,"left":0,"right":0},"padding":{"top":16,"bottom":0,"left":0,"right":0},"background_image":null,"heading":null,"description":null,"children":[{"src":"https://raw.githubusercontent.com/faiza2323/taqnix_images/refs/heads/main/all.png","width":157.73684210526315,"height":151,"border_radius":0,"opacity":1,"heading":null,"description":null,"navigation_route":{"route":"category","route_id":"105"},"background_color":"#00C5C5C5","padding":{"top":1.5,"bottom":0,"left":0,"right":0.5},"margin":{"top":0,"bottom":0,"left":3,"right":0},"box_shadow":null,"gradient":null},{"src":"https://raw.githubusercontent.com/faiza2323/taqnix_images/refs/heads/main/biriyani1.png","width":189.21052631578948,"height":113,"border_radius":0,"opacity":1,"heading":null,"description":null,"navigation_route":{"route":"category","route_id":"105"},"background_color":"#00FCFCFC","padding":{"top":0,"bottom":0,"left":4.5,"right":2.5},"margin":{"top":0,"bottom":0,"left":1.5,"right":0},"box_shadow":null,"gradient":null},{"src":"https://raw.githubusercontent.com/faiza2323/taqnix_images/refs/heads/main/dosa1.png","width":224.31578947368422,"height":91,"border_radius":0,"opacity":1,"heading":null,"description":null,"navigation_route":{"route":"category","route_id":"105"},"background_color":"#00FCFCFC","padding":{"top":0,"bottom":0,"left":0,"right":3},"margin":{"top":0,"bottom":0,"left":0,"right":0},"box_shadow":null,"gradient":null},{"src":"https://raw.githubusercontent.com/faiza2323/taqnix_images/refs/heads/main/pizza1.png","width":226.73684210526315,"height":118,"border_radius":0,"opacity":1,"heading":null,"description":null,"navigation_route":{"route":"category","route_id":"105"},"background_color":"#00FCFCFC","padding":{"top":0,"bottom":0,"left":0,"right":3},"margin":{"top":0,"bottom":0,"left":0,"right":0},"box_shadow":null,"gradient":null},{"src":"https://raw.githubusercontent.com/faiza2323/taqnix_images/refs/heads/main/burger0.png","width":192.8421052631579,"height":114,"border_radius":0,"opacity":1,"heading":null,"description":null,"navigation_route":{"route":"category","route_id":"105"},"background_color":"#00FCFCFC","padding":{"top":0,"bottom":0,"left":0,"right":5.5},"margin":{"top":0,"bottom":0,"left":0,"right":0},"box_shadow":null,"gradient":null},{"src":"https://raw.githubusercontent.com/faiza2323/taqnix_images/refs/heads/main/chaat1.png","width":129.89473684210526,"height":154,"border_radius":0,"opacity":1,"heading":null,"description":null,"navigation_route":{"route":"category","route_id":"105"},"background_color":"#00C5C5C5","padding":{"top":1.5,"bottom":0,"left":0,"right":0.5},"margin":{"top":0,"bottom":0,"left":3,"right":0},"box_shadow":null,"gradient":null}],"animated_text_config":null,"carousel_options":{"height":264,"aspect_ratio":1.7777777777777777,"viewport_fraction":1,"initial_page":0,"enable_infinite_scroll":true,"animate_to_closest":true,"reverse":false,"auto_play":false,"auto_play_interval":4,"auto_play_animation_duration":800,"auto_play_curve":"Curves.fastOutSlowIn","enlarge_center_page":false,"page_snapping":true,"scroll_direction":"Axis.horizontal","pause_auto_play_on_touch":true,"pause_auto_play_on_manual_navigate":true,"pause_auto_play_in_finite_scroll":false,"enlarge_strategy":"CenterPageEnlargeStrategy.scale","enlarge_factor":0.3,"disable_center":false,"pad_ends":true,"clip_behavior":"Clip.hardEdge","indicator_options":null},"grid_options":{"grid_delegate":"SliverGridDelegateWithFixedCrossAxisCount","cross_axis_count":1,"max_cross_axis_extent":140,"main_axis_spacing":0,"cross_axis_spacing":0,"child_aspect_ratio":2.5,"staggered_tile_layout":null,"scroll_direction":"Axis.vertical","reverse":false,"shrink_wrap":false,"physics":"AlwaysScrollableScrollPhysics","padding":null},"countdown_timer_config":null,"child_conf":null,"background_widget_conf":null,"clipper_config":null,"navigation_route":null}],"actions":null,"floating_action_button":null},
+[{"layout":"","style":null,"block":[{"unique_id":"list-banner-0005-e5f6-g7h8-i9j0","name":"ملاذ الأعشاب","title":"المنزل الأخضر","block_type":"Banner","layout":"List","style":"style_1","height":178,"width":477,"border_radius":10,"background_color":"#FFFBFCFF","margin":{"top":0,"bottom":3.5000000000000004,"left":0,"right":0},"padding":{"top":20,"bottom":0,"left":0,"right":0},"background_image":null,"heading":{"text":"سحر النباتات","title_style":{"font_size":22,"font_weight":"bold","color":"#FFD20C0C","letter_spacing":1,"font_family":"Oswald","text_shadow":{"color":"#99000000","offsetX":2,"offsetY":2,"blur_radius":3},"decoration":null},"animated_text_config":null,"position":"top-center","show_title":true,"height":null},"description":{"text":"أعشاب مزروعة في أوعية، وأصص ريفية، ونقوش طبيعية تمنح أجواءً منعشة.","title_style":{"font_size":16,"font_weight":"normal","color":"#FF002200","letter_spacing":0.4,"font_family":"Roboto","text_shadow":{"color":"#66000000","offsetX":1,"offsetY":2,"blur_radius":3},"decoration":null},"animated_text_config":null,"position":"center","show_title":true,"height":null},"children":[{"src":"https://raw.githubusercontent.com/faiza2323/taqnix_images/refs/heads/main/arabic_img45.png","width":120.21052631578947,"height":228,"border_radius":4,"opacity":1,"heading":null,"description":null,"navigation_route":{"route":"/springDelights","route_id":"9801"},"background_color":"#FFFCE4EC","padding":{"top":8,"bottom":8,"left":8,"right":8},"margin":null,"box_shadow":null,"gradient":null},{"src":"https://raw.githubusercontent.com/faiza2323/taqnix_images/refs/heads/main/arabic_img45.png","width":93.57894736842105,"height":217,"border_radius":4,"opacity":1,"heading":null,"description":null,"navigation_route":{"route":"/springDelights","route_id":"9801"},"background_color":"#FFFCE4EC","padding":{"top":1.5,"bottom":8,"left":8,"right":8},"margin":{"top":0,"bottom":0,"left":0,"right":0},"box_shadow":null,"gradient":null}],"animated_text_config":null,"carousel_options":null,"grid_options":null,"countdown_timer_config":null,"child_conf":null,"background_widget_conf":null,"clipper_config":null,"navigation_route":null},{"unique_id":"banner-femmefit-001","name":"","title":"مقدمة فيم فيت","block_type":"Banner","layout":"Scroll","style":"style_2","height":313,"width":798,"border_radius":0,"background_color":"#FFD1D7E4","margin":{"top":0,"bottom":0,"left":0,"right":0},"padding":{"top":9,"bottom":16,"left":0,"right":0},"background_image":null,"heading":null,"description":null,"children":[{"src":"https://raw.githubusercontent.com/faiza2323/taqnix_images/refs/heads/main/arabic_img46.png","width":172.26315789473682,"height":229,"border_radius":0,"opacity":1,"heading":null,"description":null,"navigation_route":{"route":"category","route_id":"105"},"background_color":"#00FCFCFC","padding":{"top":0,"bottom":0,"left":0,"right":6},"margin":{"top":0,"bottom":0,"left":0,"right":0},"box_shadow":null,"gradient":null},{"src":"https://raw.githubusercontent.com/faiza2323/taqnix_images/refs/heads/main/arabic_img46.png","width":185.57894736842104,"height":368,"border_radius":0,"opacity":1,"heading":null,"description":null,"navigation_route":{"route":"category","route_id":"105"},"background_color":"#00FCFCFC","padding":{"top":0,"bottom":0,"left":0,"right":6},"margin":{"top":0,"bottom":0,"left":0,"right":0},"box_shadow":null,"gradient":null},{"src":"https://raw.githubusercontent.com/faiza2323/taqnix_images/refs/heads/main/arabic_img46.png","width":185.57894736842104,"height":368,"border_radius":0,"opacity":1,"heading":null,"description":null,"navigation_route":{"route":"category","route_id":"105"},"background_color":"#00FCFCFC","padding":{"top":0,"bottom":0,"left":0,"right":6},"margin":{"top":0,"bottom":0,"left":0,"right":0},"box_shadow":null,"gradient":null},{"src":"https://raw.githubusercontent.com/faiza2323/taqnix_images/refs/heads/main/arabic_img46.png","width":185.57894736842104,"height":368,"border_radius":0,"opacity":1,"heading":null,"description":null,"navigation_route":{"route":"category","route_id":"105"},"background_color":"#00FCFCFC","padding":{"top":0,"bottom":0,"left":0,"right":0},"margin":{"top":0,"bottom":0,"left":0,"right":0},"box_shadow":null,"gradient":null}],"animated_text_config":null,"carousel_options":{"height":264,"aspect_ratio":1.7777777777777777,"viewport_fraction":1,"initial_page":0,"enable_infinite_scroll":true,"animate_to_closest":true,"reverse":false,"auto_play":false,"auto_play_interval":4,"auto_play_animation_duration":800,"auto_play_curve":"Curves.fastOutSlowIn","enlarge_center_page":false,"page_snapping":true,"scroll_direction":"Axis.horizontal","pause_auto_play_on_touch":true,"pause_auto_play_on_manual_navigate":true,"pause_auto_play_in_finite_scroll":false,"enlarge_strategy":"CenterPageEnlargeStrategy.scale","enlarge_factor":0.3,"disable_center":false,"pad_ends":true,"clip_behavior":"Clip.hardEdge","indicator_options":null},"grid_options":{"grid_delegate":"SliverGridDelegateWithFixedCrossAxisCount","cross_axis_count":2,"max_cross_axis_extent":120,"main_axis_spacing":5,"cross_axis_spacing":5,"child_aspect_ratio":1.3,"staggered_tile_layout":null,"scroll_direction":"Axis.vertical","reverse":false,"shrink_wrap":false,"physics":"AlwaysScrollableScrollPhysics","padding":{"top":0,"bottom":0,"left":16,"right":16}},"countdown_timer_config":null,"child_conf":null,"background_widget_conf":null,"clipper_config":null,"navigation_route":null}],"actions":null,"floating_action_button":null},
+  {
+    "layout": "",
+    "style": null,
+    "block": [
+      {
+        "unique_id": "banner-femmefit-001",
+        "name": "",
+        "title": "FemmeFit Intro",
+        "block_type": "Banner",
+        "layout": "Slider",
+        "style": "style_2",
+        "height": 447,
+        "width": 900,
+        "border_radius": 12,
+        "background_color": "#FFFFFFFF",
+        "margin": null,
+        "padding": null,
+        "background_image": null,
+        "heading": null,
+        "description": null,
+        "children": [
+          {
+            "src": "https://raw.githubusercontent.com/faiza2323/taqnix_images/refs/heads/main/zomato_img4.png",
+            "width": 219.4736842105263,
+            "height": 198,
+            "border_radius": 0,
+            "opacity": 1,
+            "heading": null,
+            "description": null,
+            "navigation_route": {
+              "route": "category",
+              "route_id": "81"
+            },
+            "background_color": "#00000000",
+            "padding": null,
+            "margin": null,
+            "box_shadow": null,
+            "gradient": null
+          },
+          {
+            "src": "https://raw.githubusercontent.com/faiza2323/taqnix_images/refs/heads/main/zomato_img5.png",
+            "width": 219.4736842105263,
+            "height": 198,
+            "border_radius": 0,
+            "opacity": 1,
+            "heading": null,
+            "description": null,
+            "navigation_route": {
+              "route": "category",
+              "route_id": "97"
+            },
+            "background_color": "#00000000",
+            "padding": null,
+            "margin": null,
+            "box_shadow": null,
+            "gradient": null
+          },
+          {
+            "src": "https://raw.githubusercontent.com/faiza2323/taqnix_images/refs/heads/main/zomato_img4.png",
+            "width": 219.4736842105263,
+            "height": 198,
+            "border_radius": 0,
+            "opacity": 1,
+            "heading": null,
+            "description": null,
+            "navigation_route": {
+              "route": "category",
+              "route_id": "107"
+            },
+            "background_color": "#00000000",
+            "padding": null,
+            "margin": null,
+            "box_shadow": null,
+            "gradient": null
+          },
+          {
+            "src": "https://raw.githubusercontent.com/faiza2323/taqnix_images/refs/heads/main/zomato_img4.png",
+            "width": 219.4736842105263,
+            "height": 198,
+            "border_radius": 0,
+            "opacity": 1,
+            "heading": null,
+            "description": null,
+            "navigation_route": {
+              "route": "category",
+              "route_id": "86"
+            },
+            "background_color": "#00000000",
+            "padding": null,
+            "margin": null,
+            "box_shadow": null,
+            "gradient": null
+          }
+        ],
+        "animated_text_config": null,
+        "carousel_options": {
+          "height": 330,
+          "aspect_ratio": 1.7777777777777777,
+          "viewport_fraction": 1,
+          "initial_page": 0,
+          "enable_infinite_scroll": true,
+          "animate_to_closest": true,
+          "reverse": false,
+          "auto_play": true,
+          "auto_play_interval": 1,
+          "auto_play_animation_duration": 800,
+          "auto_play_curve": "Curves.fastOutSlowIn",
+          "enlarge_center_page": false,
+          "page_snapping": true,
+          "scroll_direction": "Axis.horizontal",
+          "pause_auto_play_on_touch": true,
+          "pause_auto_play_on_manual_navigate": true,
+          "pause_auto_play_in_finite_scroll": false,
+          "enlarge_strategy": "CenterPageEnlargeStrategy.scale",
+          "enlarge_factor": 0.3,
+          "disable_center": false,
+          "pad_ends": true,
+          "clip_behavior": "Clip.hardEdge",
+          "indicator_options": null
+        },
+        "grid_options": {
+          "grid_delegate": "SliverGridDelegateWithFixedCrossAxisCount",
+          "cross_axis_count": 1,
+          "max_cross_axis_extent": 140,
+          "main_axis_spacing": 0,
+          "cross_axis_spacing": 0,
+          "child_aspect_ratio": 3,
+          "staggered_tile_layout": null,
+          "scroll_direction": "Axis.vertical",
+          "reverse": false,
+          "shrink_wrap": false,
+          "physics": "AlwaysScrollableScrollPhysics",
+          "padding": null
+        },
+        "countdown_timer_config": null,
+        "child_conf": null,
+        "background_widget_conf": null,
+        "clipper_config": null,
+        "navigation_route": null
+      },
+      {
+        "unique_id": "banner-femmefit-001",
+        "name": "",
+        "title": "Featured this week",
+        "block_type": "Banner",
+        "layout": "Scroll",
+        "style": "style_2",
+        "height": 275,
+        "width": 540,
+        "border_radius": 0,
+        "background_color": "#FFFFFFFF",
+        "margin": {
+          "top": 0,
+          "bottom": 5,
+          "left": 0,
+          "right": 0
+        },
+        "padding": {
+          "top": 16,
+          "bottom": 0,
+          "left": 0,
+          "right": 0
+        },
+        "background_image": null,
+        "heading": null,
+        "description": null,
+        "children": [
+          {
+            "src": "https://raw.githubusercontent.com/faiza2323/taqnix_images/refs/heads/main/all.png",
+            "width": 157.73684210526315,
+            "height": 151,
+            "border_radius": 0,
+            "opacity": 1,
+            "heading": null,
+            "description": null,
+            "navigation_route": {
+              "route": "category",
+              "route_id": "105"
+            },
+            "background_color": "#00C5C5C5",
+            "padding": {
+              "top": 1.5,
+              "bottom": 0,
+              "left": 0,
+              "right": 0.5
+            },
+            "margin": {
+              "top": 0,
+              "bottom": 0,
+              "left": 3,
+              "right": 0
+            },
+            "box_shadow": null,
+            "gradient": null
+          },
+          {
+            "src": "https://raw.githubusercontent.com/faiza2323/taqnix_images/refs/heads/main/biriyani1.png",
+            "width": 189.21052631578948,
+            "height": 113,
+            "border_radius": 0,
+            "opacity": 1,
+            "heading": null,
+            "description": null,
+            "navigation_route": {
+              "route": "category",
+              "route_id": "105"
+            },
+            "background_color": "#00FCFCFC",
+            "padding": {
+              "top": 0,
+              "bottom": 0,
+              "left": 4.5,
+              "right": 2.5
+            },
+            "margin": {
+              "top": 0,
+              "bottom": 0,
+              "left": 1.5,
+              "right": 0
+            },
+            "box_shadow": null,
+            "gradient": null
+          },
+          {
+            "src": "https://raw.githubusercontent.com/faiza2323/taqnix_images/refs/heads/main/dosa1.png",
+            "width": 224.31578947368422,
+            "height": 91,
+            "border_radius": 0,
+            "opacity": 1,
+            "heading": null,
+            "description": null,
+            "navigation_route": {
+              "route": "category",
+              "route_id": "105"
+            },
+            "background_color": "#00FCFCFC",
+            "padding": {
+              "top": 0,
+              "bottom": 0,
+              "left": 0,
+              "right": 3
+            },
+            "margin": {
+              "top": 0,
+              "bottom": 0,
+              "left": 0,
+              "right": 0
+            },
+            "box_shadow": null,
+            "gradient": null
+          },
+          {
+            "src": "https://raw.githubusercontent.com/faiza2323/taqnix_images/refs/heads/main/pizza1.png",
+            "width": 226.73684210526315,
+            "height": 118,
+            "border_radius": 0,
+            "opacity": 1,
+            "heading": null,
+            "description": null,
+            "navigation_route": {
+              "route": "category",
+              "route_id": "105"
+            },
+            "background_color": "#00FCFCFC",
+            "padding": {
+              "top": 0,
+              "bottom": 0,
+              "left": 0,
+              "right": 3
+            },
+            "margin": {
+              "top": 0,
+              "bottom": 0,
+              "left": 0,
+              "right": 0
+            },
+            "box_shadow": null,
+            "gradient": null
+          },
+          {
+            "src": "https://raw.githubusercontent.com/faiza2323/taqnix_images/refs/heads/main/burger0.png",
+            "width": 192.8421052631579,
+            "height": 114,
+            "border_radius": 0,
+            "opacity": 1,
+            "heading": null,
+            "description": null,
+            "navigation_route": {
+              "route": "category",
+              "route_id": "105"
+            },
+            "background_color": "#00FCFCFC",
+            "padding": {
+              "top": 0,
+              "bottom": 0,
+              "left": 0,
+              "right": 5.5
+            },
+            "margin": {
+              "top": 0,
+              "bottom": 0,
+              "left": 0,
+              "right": 0
+            },
+            "box_shadow": null,
+            "gradient": null
+          },
+          {
+            "src": "https://raw.githubusercontent.com/faiza2323/taqnix_images/refs/heads/main/chaat1.png",
+            "width": 129.89473684210526,
+            "height": 154,
+            "border_radius": 0,
+            "opacity": 1,
+            "heading": null,
+            "description": null,
+            "navigation_route": {
+              "route": "category",
+              "route_id": "105"
+            },
+            "background_color": "#00C5C5C5",
+            "padding": {
+              "top": 1.5,
+              "bottom": 0,
+              "left": 0,
+              "right": 0.5
+            },
+            "margin": {
+              "top": 0,
+              "bottom": 0,
+              "left": 3,
+              "right": 0
+            },
+            "box_shadow": null,
+            "gradient": null
+          }
+        ],
+        "animated_text_config": null,
+        "carousel_options": {
+          "height": 264,
+          "aspect_ratio": 1.7777777777777777,
+          "viewport_fraction": 1,
+          "initial_page": 0,
+          "enable_infinite_scroll": true,
+          "animate_to_closest": true,
+          "reverse": false,
+          "auto_play": false,
+          "auto_play_interval": 4,
+          "auto_play_animation_duration": 800,
+          "auto_play_curve": "Curves.fastOutSlowIn",
+          "enlarge_center_page": false,
+          "page_snapping": true,
+          "scroll_direction": "Axis.horizontal",
+          "pause_auto_play_on_touch": true,
+          "pause_auto_play_on_manual_navigate": true,
+          "pause_auto_play_in_finite_scroll": false,
+          "enlarge_strategy": "CenterPageEnlargeStrategy.scale",
+          "enlarge_factor": 0.3,
+          "disable_center": false,
+          "pad_ends": true,
+          "clip_behavior": "Clip.hardEdge",
+          "indicator_options": null
+        },
+        "grid_options": {
+          "grid_delegate": "SliverGridDelegateWithFixedCrossAxisCount",
+          "cross_axis_count": 1,
+          "max_cross_axis_extent": 140,
+          "main_axis_spacing": 0,
+          "cross_axis_spacing": 0,
+          "child_aspect_ratio": 2.5,
+          "staggered_tile_layout": null,
+          "scroll_direction": "Axis.vertical",
+          "reverse": false,
+          "shrink_wrap": false,
+          "physics": "AlwaysScrollableScrollPhysics",
+          "padding": null
+        },
+        "countdown_timer_config": null,
+        "child_conf": null,
+        "background_widget_conf": null,
+        "clipper_config": null,
+        "navigation_route": null
+      }
+    ],
+    "actions": null,
+    "floating_action_button": null
+  },
   {
     "layout": "layout2",
     "style": {
