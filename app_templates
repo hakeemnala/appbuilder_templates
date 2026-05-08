@@ -2335,14 +2335,14 @@
               "foreground_color": "#FFFFFFFF"
             },
             {
-              "label": "Body Care",
+              "label": "For mom",
               "icon": "",
               "navigation_route": {
-                "route": null,
-                "route_id": ""
+                "route": "app_page",
+                "route_id": "12"
               },
               "background_image": "",
-              "background_color": "#FFFFFFFF",
+              "background_color": "#FFFDD3F2",
               "selected_item_color": "#FF202541",
               "unselected_item_color": "#FFFFFFB3",
               "foreground_color": "#FFFFFFFF"
@@ -2414,7 +2414,7 @@
       "useAppFont": true,
       "swapLegacyOnMaterial3": true,
       "useMaterial3ErrorColors": true,
-      "visualDensity": "<optimized out>#266f6(h: -1.0, v: -1.0)",
+      "visualDensity": "<optimized out>#e9854(h: -1.0, v: -1.0)",
       "font_family": "Alegreya",
       "subThemesData": {
         "useTextTheme": true,
