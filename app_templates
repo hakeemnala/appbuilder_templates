@@ -883,7 +883,7 @@
       ]
     },
     "home_config": {
-      "layout": "",
+      "layout": "layout1",
       "style": {
         "background_color": "#FFFFFFFF"
       },
@@ -2039,6 +2039,15 @@
             "route_id": ""
           },
           "icon_color": "#FF000000"
+        },
+        {
+          "title": "Settings",
+          "icon": "CupertinoIcons.settings",
+          "navigation_route": {
+            "route": "settings",
+            "route_id": ""
+          },
+          "icon_color": "#FF000000"
         }
       ],
       "floating_action_button": {
@@ -2313,14 +2322,14 @@
           "unselected_label_color": "#88FFFFFF",
           "tabs": [
             {
-              "label": "Body Care",
-              "icon": "",
+              "label": "Pets Shop",
+              "icon": "PhosphorIconsBold.dog",
               "navigation_route": {
-                "route": null,
-                "route_id": ""
+                "route": "app_page",
+                "route_id": "10"
               },
               "background_image": "",
-              "background_color": "#FFFFFFFF",
+              "background_color": "#FFABA9F2",
               "selected_item_color": "#FF202541",
               "unselected_item_color": "#FFFFFFB3",
               "foreground_color": "#FFFFFFFF"
@@ -2405,7 +2414,7 @@
       "useAppFont": true,
       "swapLegacyOnMaterial3": true,
       "useMaterial3ErrorColors": true,
-      "visualDensity": "<optimized out>#d6fdb(h: -1.0, v: -1.0)",
+      "visualDensity": "<optimized out>#266f6(h: -1.0, v: -1.0)",
       "font_family": "Alegreya",
       "subThemesData": {
         "useTextTheme": true,
