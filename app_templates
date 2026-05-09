@@ -4041,9 +4041,9 @@
       ]
     },
     "home_config": {
-      "layout": "",
+      "layout": "layout1",
       "style": {
-        "background_color": "#FFEDEDED"
+        "background_color": "#FFFFFFFF"
       },
       "block": [
         {
@@ -4055,12 +4055,17 @@
           "style": "style_1",
           "height": 202,
           "width": 900,
-          "border_radius": 10,
+          "border_radius": 0,
           "background_color": "#FFFFFFFF",
-          "margin": null,
+          "margin": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
           "padding": {
-            "top": 12,
-            "bottom": 12,
+            "top": 0,
+            "bottom": 0,
             "left": 0,
             "right": 0
           },
@@ -4069,10 +4074,10 @@
           "description": null,
           "children": [
             {
-              "src": "https://raw.githubusercontent.com/faiza2323/taqnix_images/refs/heads/main/tv1.png",
-              "width": 295.7368421052631,
-              "height": 206,
-              "border_radius": 8,
+              "src": "https://raw.githubusercontent.com/faiza2323/taqnix_images/refs/heads/main/beauty27.jpeg",
+              "width": 419.2105263157895,
+              "height": 152,
+              "border_radius": 0,
               "opacity": 1,
               "heading": {
                 "text": "",
@@ -4087,13 +4092,90 @@
                 "route": "product_page",
                 "route_id": "pixelPhone"
               },
-              "background_color": "#FFF3F3F3",
-              "padding": null,
+              "background_color": "#FFFFFFFF",
+              "padding": {
+                "top": 0.5,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
               "margin": {
-                "top": 5,
-                "bottom": 5,
-                "left": 5,
-                "right": 5
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "box_shadow": null,
+              "gradient": null,
+              "box_fit": "cover"
+            },
+            {
+              "src": "https://raw.githubusercontent.com/faiza2323/taqnix_images/refs/heads/main/beauty28.jpeg",
+              "width": 229.1578947368421,
+              "height": 152,
+              "border_radius": 0,
+              "opacity": 1,
+              "heading": {
+                "text": "",
+                "title_style": null,
+                "animated_text_config": null,
+                "position": "center",
+                "show_title": false,
+                "height": null
+              },
+              "description": null,
+              "navigation_route": {
+                "route": "product_page",
+                "route_id": "pixelPhone"
+              },
+              "background_color": "#FFFFFFFF",
+              "padding": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "margin": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "box_shadow": null,
+              "gradient": null,
+              "box_fit": "cover"
+            },
+            {
+              "src": "https://raw.githubusercontent.com/faiza2323/taqnix_images/refs/heads/main/beauty18.png",
+              "width": 229.1578947368421,
+              "height": 152,
+              "border_radius": 0,
+              "opacity": 1,
+              "heading": {
+                "text": "",
+                "title_style": null,
+                "animated_text_config": null,
+                "position": "center",
+                "show_title": false,
+                "height": null
+              },
+              "description": null,
+              "navigation_route": {
+                "route": "product_page",
+                "route_id": "pixelPhone"
+              },
+              "background_color": "#FFFFFFFF",
+              "padding": {
+                "top": 0,
+                "bottom": 0.5,
+                "left": 0,
+                "right": 0
+              },
+              "margin": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
               },
               "box_shadow": null,
               "gradient": null,
@@ -4102,7 +4184,7 @@
           ],
           "animated_text_config": null,
           "carousel_options": {
-            "height": 159,
+            "height": 139,
             "aspect_ratio": 1.15,
             "viewport_fraction": 0.78,
             "initial_page": 0,
@@ -4110,7 +4192,7 @@
             "animate_to_closest": true,
             "reverse": false,
             "auto_play": true,
-            "auto_play_interval": 4,
+            "auto_play_interval": 3,
             "auto_play_animation_duration": 1800,
             "auto_play_curve": "Curves.easeIn",
             "enlarge_center_page": true,
@@ -4164,30 +4246,72 @@
             "right": 0
           },
           "padding": {
-            "top": 16,
+            "top": 0,
             "bottom": 0,
             "left": 0,
             "right": 0
           },
           "background_image": null,
-          "heading": {
-            "text": "Top 10 TV Shows",
-            "title_style": {
-              "font_size": 17,
-              "font_weight": "w600",
-              "color": "#FF000000",
-              "letter_spacing": null,
-              "font_family": "Lato",
-              "text_shadow": null,
-              "decoration": null
-            },
-            "animated_text_config": null,
-            "position": "top-left",
-            "show_title": true,
-            "height": null
-          },
+          "heading": null,
           "description": null,
-          "children": [],
+          "children": [
+            {
+              "src": "https://raw.githubusercontent.com/faiza2323/taqnix_images/refs/heads/main/beauty29.jpeg",
+              "width": 395,
+              "height": 100,
+              "border_radius": 0,
+              "opacity": 0.06,
+              "heading": {
+                "text": "",
+                "title_style": null,
+                "animated_text_config": null,
+                "position": "center",
+                "show_title": false,
+                "height": null
+              },
+              "description": {
+                "text": "",
+                "title_style": null,
+                "animated_text_config": null,
+                "position": "center",
+                "show_title": false,
+                "height": null
+              },
+              "navigation_route": {
+                "route": null,
+                "route_id": ""
+              },
+              "background_color": "#FFFFFFFF",
+              "padding": {
+                "top": 5,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "margin": {
+                "top": 0,
+                "bottom": 0,
+                "left": 6,
+                "right": 0
+              },
+              "box_shadow": {
+                "color": "#40000000",
+                "offset_x": 0,
+                "offset_y": 2,
+                "blur_radius": 4,
+                "spread_radius": 1
+              },
+              "gradient": {
+                "type": "linear",
+                "colors": [],
+                "begin": "Alignment.bottomCenter",
+                "end": "Alignment.topCenter",
+                "opacity": 1,
+                "radius": null
+              },
+              "box_fit": "fill"
+            }
+          ],
           "animated_text_config": null,
           "carousel_options": {
             "height": 264,
@@ -4247,12 +4371,12 @@
           "background_color": "#FFFFFFFF",
           "margin": {
             "top": 0,
-            "bottom": 5,
-            "left": 0,
+            "bottom": 0,
+            "left": 23.5,
             "right": 0
           },
           "padding": {
-            "top": 2,
+            "top": 0,
             "bottom": 0,
             "left": 0,
             "right": 0
@@ -4262,10 +4386,68 @@
           "description": null,
           "children": [
             {
-              "src": "https://raw.githubusercontent.com/faiza2323/taqnix_images/refs/heads/main/tv2.jpeg",
-              "width": 97.21052631578948,
+              "src": "https://raw.githubusercontent.com/faiza2323/taqnix_images/refs/heads/main/beauty13.png",
+              "width": 92.36842105263158,
+              "height": 148,
+              "border_radius": 10,
+              "opacity": 1,
+              "heading": null,
+              "description": null,
+              "navigation_route": {
+                "route": "category",
+                "route_id": "105"
+              },
+              "background_color": "#F4FFFFFF",
+              "padding": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "margin": {
+                "top": 2.5,
+                "bottom": 0,
+                "left": 50,
+                "right": 0
+              },
+              "box_shadow": null,
+              "gradient": null,
+              "box_fit": "cover"
+            },
+            {
+              "src": "https://raw.githubusercontent.com/faiza2323/taqnix_images/refs/heads/main/beauty14.png",
+              "width": 92.36842105263158,
+              "height": 179,
+              "border_radius": 10,
+              "opacity": 1,
+              "heading": null,
+              "description": null,
+              "navigation_route": {
+                "route": "category",
+                "route_id": "105"
+              },
+              "background_color": "#F5FCFCFC",
+              "padding": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "margin": {
+                "top": 2.5,
+                "bottom": 0,
+                "left": 4,
+                "right": 4
+              },
+              "box_shadow": null,
+              "gradient": null,
+              "box_fit": "cover"
+            },
+            {
+              "src": "https://raw.githubusercontent.com/faiza2323/taqnix_images/refs/heads/main/beauty13.png",
+              "width": 89.94736842105263,
               "height": 140,
-              "border_radius": 0,
+              "border_radius": 10,
               "opacity": 1,
               "heading": null,
               "description": null,
@@ -4273,7 +4455,7 @@
                 "route": "category",
                 "route_id": "105"
               },
-              "background_color": "#00FCFCFC",
+              "background_color": "#F6FCFCFC",
               "padding": {
                 "top": 0,
                 "bottom": 0,
@@ -4281,123 +4463,7 @@
                 "right": 0
               },
               "margin": {
-                "top": 1.5,
-                "bottom": 0,
-                "left": 2.5,
-                "right": 0
-              },
-              "box_shadow": null,
-              "gradient": null,
-              "box_fit": "cover"
-            },
-            {
-              "src": "https://raw.githubusercontent.com/faiza2323/taqnix_images/refs/heads/main/tv2.jpeg",
-              "width": 99.63157894736841,
-              "height": 139,
-              "border_radius": 0,
-              "opacity": 1,
-              "heading": null,
-              "description": null,
-              "navigation_route": {
-                "route": "category",
-                "route_id": "105"
-              },
-              "background_color": "#00FCFCFC",
-              "padding": {
-                "top": 0,
-                "bottom": 0,
-                "left": 0,
-                "right": 0
-              },
-              "margin": {
-                "top": 0,
-                "bottom": 0,
-                "left": 0,
-                "right": 0
-              },
-              "box_shadow": null,
-              "gradient": null,
-              "box_fit": "cover"
-            },
-            {
-              "src": "https://raw.githubusercontent.com/faiza2323/taqnix_images/refs/heads/main/tv2.jpeg",
-              "width": 99.63157894736841,
-              "height": 139,
-              "border_radius": 0,
-              "opacity": 1,
-              "heading": null,
-              "description": null,
-              "navigation_route": {
-                "route": "category",
-                "route_id": "105"
-              },
-              "background_color": "#00FCFCFC",
-              "padding": {
-                "top": 0,
-                "bottom": 0,
-                "left": 0,
-                "right": 0
-              },
-              "margin": {
-                "top": 0,
-                "bottom": 0,
-                "left": 0,
-                "right": 0
-              },
-              "box_shadow": null,
-              "gradient": null,
-              "box_fit": "cover"
-            },
-            {
-              "src": "https://raw.githubusercontent.com/faiza2323/taqnix_images/refs/heads/main/tv2.jpeg",
-              "width": 99.63157894736841,
-              "height": 139,
-              "border_radius": 0,
-              "opacity": 1,
-              "heading": null,
-              "description": null,
-              "navigation_route": {
-                "route": "category",
-                "route_id": "105"
-              },
-              "background_color": "#00FCFCFC",
-              "padding": {
-                "top": 0,
-                "bottom": 0,
-                "left": 0,
-                "right": 0
-              },
-              "margin": {
-                "top": 0,
-                "bottom": 0,
-                "left": 0,
-                "right": 0
-              },
-              "box_shadow": null,
-              "gradient": null,
-              "box_fit": "cover"
-            },
-            {
-              "src": "https://raw.githubusercontent.com/faiza2323/taqnix_images/refs/heads/main/tv2.jpeg",
-              "width": 99.63157894736841,
-              "height": 139,
-              "border_radius": 0,
-              "opacity": 1,
-              "heading": null,
-              "description": null,
-              "navigation_route": {
-                "route": "category",
-                "route_id": "105"
-              },
-              "background_color": "#00FCFCFC",
-              "padding": {
-                "top": 0,
-                "bottom": 0,
-                "left": 0,
-                "right": 0
-              },
-              "margin": {
-                "top": 0,
+                "top": 2.5,
                 "bottom": 0,
                 "left": 0,
                 "right": 0
@@ -4452,6 +4518,656 @@
           "background_widget_conf": null,
           "clipper_config": null,
           "navigation_route": null
+        },
+        {
+          "unique_id": "00112233-4455-6677-8899-aabbccddeeff",
+          "name": "Ecommerce Essentials",
+          "title": "Staple Picks",
+          "block_type": "Banner",
+          "layout": "Scroll",
+          "style": "style_1",
+          "height": 563,
+          "width": 920,
+          "border_radius": 10,
+          "background_color": "#FFFFFFFF",
+          "margin": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "padding": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "background_image": null,
+          "heading": null,
+          "description": null,
+          "children": [
+            {
+              "src": "https://raw.githubusercontent.com/faiza2323/taqnix_images/refs/heads/main/beauty25.png",
+              "width": 138.36842105263156,
+              "height": 210,
+              "border_radius": 8,
+              "opacity": 1,
+              "heading": null,
+              "description": null,
+              "navigation_route": {
+                "route": "/ecommerceEssentials",
+                "route_id": "9201"
+              },
+              "background_color": "#FFFFFFFF",
+              "padding": {
+                "top": 0,
+                "bottom": 0.5,
+                "left": 0,
+                "right": 17
+              },
+              "margin": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0.5,
+                "right": 0.5
+              },
+              "box_shadow": null,
+              "gradient": null,
+              "box_fit": "cover"
+            },
+            {
+              "src": "https://raw.githubusercontent.com/faiza2323/taqnix_images/refs/heads/main/beauty26.png",
+              "width": 144.42105263157896,
+              "height": 226,
+              "border_radius": 8,
+              "opacity": 1,
+              "heading": null,
+              "description": null,
+              "navigation_route": {
+                "route": "/ecommerceEssentials",
+                "route_id": "9201"
+              },
+              "background_color": "#FFFFFFFF",
+              "padding": {
+                "top": 0,
+                "bottom": 0.5,
+                "left": 0,
+                "right": 16
+              },
+              "margin": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0.5,
+                "right": 0.5
+              },
+              "box_shadow": null,
+              "gradient": null,
+              "box_fit": "cover"
+            },
+            {
+              "src": "https://raw.githubusercontent.com/faiza2323/taqnix_images/refs/heads/main/beauty21.png",
+              "width": 146.8421052631579,
+              "height": 210,
+              "border_radius": 8,
+              "opacity": 1,
+              "heading": null,
+              "description": null,
+              "navigation_route": {
+                "route": "/ecommerceEssentials",
+                "route_id": "9201"
+              },
+              "background_color": "#FFFFFFFF",
+              "padding": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 20
+              },
+              "margin": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0.5
+              },
+              "box_shadow": null,
+              "gradient": null,
+              "box_fit": "cover"
+            }
+          ],
+          "animated_text_config": null,
+          "carousel_options": null,
+          "grid_options": {
+            "grid_delegate": "SliverGridDelegateWithFixedCrossAxisCount",
+            "cross_axis_count": 3,
+            "max_cross_axis_extent": 220,
+            "main_axis_spacing": 10,
+            "cross_axis_spacing": 10,
+            "child_aspect_ratio": 1,
+            "staggered_tile_layout": null,
+            "scroll_direction": "Axis.vertical",
+            "reverse": false,
+            "shrink_wrap": false,
+            "physics": "AlwaysScrollableScrollPhysics",
+            "padding": {
+              "top": 10,
+              "bottom": 10,
+              "left": 10,
+              "right": 10
+            }
+          },
+          "countdown_timer_config": {
+            "enabled": false,
+            "style": "style_star",
+            "background_color": "#FFF3E5F5",
+            "text_config": null,
+            "separator_color": "#FFF3E5F5",
+            "font_size": 14,
+            "border_radius": 7,
+            "padding": null,
+            "sale_date": "2025-12-31T23:59:59.000Z"
+          },
+          "child_conf": null,
+          "background_widget_conf": null,
+          "clipper_config": null,
+          "navigation_route": null
+        },
+        {
+          "unique_id": "list-shapewear-002",
+          "name": "",
+          "title": "Sculpt & Smile",
+          "block_type": "Banner",
+          "layout": "List",
+          "style": "style_4",
+          "height": 560,
+          "width": 820,
+          "border_radius": 0,
+          "background_color": "#FFF5EAEA",
+          "margin": {
+            "top": 0,
+            "bottom": 0.5,
+            "left": 0,
+            "right": 0
+          },
+          "padding": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 12
+          },
+          "background_image": null,
+          "heading": {
+            "text": "Discover Our Bath & Body Care Range",
+            "title_style": {
+              "font_size": 19,
+              "font_weight": "w600",
+              "color": null,
+              "letter_spacing": null,
+              "font_family": "Aboreto",
+              "text_shadow": null,
+              "decoration": null
+            },
+            "animated_text_config": null,
+            "position": "center",
+            "show_title": false,
+            "height": null
+          },
+          "description": null,
+          "children": [],
+          "animated_text_config": null,
+          "carousel_options": {
+            "height": 220,
+            "aspect_ratio": 1.7,
+            "viewport_fraction": 0.85,
+            "initial_page": 0,
+            "enable_infinite_scroll": true,
+            "animate_to_closest": true,
+            "reverse": false,
+            "auto_play": true,
+            "auto_play_interval": 5,
+            "auto_play_animation_duration": 600,
+            "auto_play_curve": "Curves.easeIn",
+            "enlarge_center_page": true,
+            "page_snapping": true,
+            "scroll_direction": "Axis.horizontal",
+            "pause_auto_play_on_touch": true,
+            "pause_auto_play_on_manual_navigate": true,
+            "pause_auto_play_in_finite_scroll": false,
+            "enlarge_strategy": "CenterPageEnlargeStrategy.scale",
+            "enlarge_factor": 0.2,
+            "disable_center": false,
+            "pad_ends": true,
+            "clip_behavior": "Clip.hardEdge",
+            "indicator_options": {
+              "show": true,
+              "show_below": false,
+              "effect": "ExpandingDotsEffect",
+              "active_dot_color": "#FFA86A68",
+              "dot_color": "#FFDDCCCC",
+              "dot_height": 10,
+              "dot_width": 10,
+              "expansion_factor": 4,
+              "spacing": 8,
+              "position": "bottom-center",
+              "radius": 16,
+              "stroke_width": 1
+            }
+          },
+          "grid_options": null,
+          "countdown_timer_config": null,
+          "child_conf": null,
+          "background_widget_conf": null,
+          "clipper_config": null,
+          "navigation_route": null
+        },
+        {
+          "unique_id": "banner-femmefit-001",
+          "name": "",
+          "title": "FemmeFit Intro",
+          "block_type": "Banner",
+          "layout": "Scroll",
+          "style": "style_2",
+          "height": 254,
+          "width": 900,
+          "border_radius": 12,
+          "background_color": "#FFFFFFFF",
+          "margin": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "padding": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "background_image": null,
+          "heading": null,
+          "description": null,
+          "children": [
+            {
+              "src": "https://raw.githubusercontent.com/faiza2323/taqnix_images/refs/heads/main/beauty30.jpeg",
+              "width": 230.3684210526316,
+              "height": 211,
+              "border_radius": 0,
+              "opacity": 0.3,
+              "heading": null,
+              "description": null,
+              "navigation_route": null,
+              "background_color": "#00000000",
+              "padding": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0.5
+              },
+              "margin": {
+                "top": 3,
+                "bottom": 0,
+                "left": 3,
+                "right": 3
+              },
+              "box_shadow": null,
+              "gradient": null,
+              "box_fit": "cover"
+            },
+            {
+              "src": "https://raw.githubusercontent.com/faiza2323/taqnix_images/refs/heads/main/beauty31.jpeg",
+              "width": 225.5263157894737,
+              "height": 149,
+              "border_radius": 0,
+              "opacity": 0.3,
+              "heading": null,
+              "description": null,
+              "navigation_route": null,
+              "background_color": "#00000000",
+              "padding": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0.5
+              },
+              "margin": {
+                "top": 3,
+                "bottom": 0,
+                "left": 3,
+                "right": 3
+              },
+              "box_shadow": null,
+              "gradient": null,
+              "box_fit": "cover"
+            },
+            {
+              "src": "https://raw.githubusercontent.com/faiza2323/taqnix_images/refs/heads/main/beauty32.jpeg",
+              "width": 225.5263157894737,
+              "height": 149,
+              "border_radius": 0,
+              "opacity": 0.3,
+              "heading": null,
+              "description": null,
+              "navigation_route": null,
+              "background_color": "#00000000",
+              "padding": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0.5
+              },
+              "margin": {
+                "top": 3,
+                "bottom": 0,
+                "left": 3,
+                "right": 3
+              },
+              "box_shadow": null,
+              "gradient": null,
+              "box_fit": "cover"
+            }
+          ],
+          "animated_text_config": null,
+          "carousel_options": {
+            "height": 204,
+            "aspect_ratio": 1.7777777777777777,
+            "viewport_fraction": 1,
+            "initial_page": 0,
+            "enable_infinite_scroll": true,
+            "animate_to_closest": true,
+            "reverse": false,
+            "auto_play": true,
+            "auto_play_interval": 2,
+            "auto_play_animation_duration": 1000,
+            "auto_play_curve": "Curves.fastOutSlowIn",
+            "enlarge_center_page": false,
+            "page_snapping": true,
+            "scroll_direction": "Axis.horizontal",
+            "pause_auto_play_on_touch": true,
+            "pause_auto_play_on_manual_navigate": true,
+            "pause_auto_play_in_finite_scroll": false,
+            "enlarge_strategy": "CenterPageEnlargeStrategy.scale",
+            "enlarge_factor": 0.3,
+            "disable_center": false,
+            "pad_ends": true,
+            "clip_behavior": "Clip.hardEdge",
+            "indicator_options": {
+              "show": true,
+              "show_below": true,
+              "effect": "ExpandingDotsEffect",
+              "active_dot_color": "#FF000000",
+              "dot_color": "#FFCCCCCC",
+              "dot_height": 2,
+              "dot_width": 12,
+              "expansion_factor": 4,
+              "spacing": 8,
+              "position": "bottom-center",
+              "radius": 16,
+              "stroke_width": 1
+            }
+          },
+          "grid_options": {
+            "grid_delegate": "SliverGridDelegateWithFixedCrossAxisCount",
+            "cross_axis_count": 1,
+            "max_cross_axis_extent": 140,
+            "main_axis_spacing": 0,
+            "cross_axis_spacing": 0,
+            "child_aspect_ratio": 3,
+            "staggered_tile_layout": null,
+            "scroll_direction": "Axis.vertical",
+            "reverse": false,
+            "shrink_wrap": false,
+            "physics": "AlwaysScrollableScrollPhysics",
+            "padding": null
+          },
+          "countdown_timer_config": null,
+          "child_conf": null,
+          "background_widget_conf": null,
+          "clipper_config": null,
+          "navigation_route": null
+        },
+        {
+          "unique_id": "33004455-6677-8899-9900-aabbccddeeff",
+          "name": "Gadget Gala",
+          "title": "Tech Boost",
+          "block_type": "Banner",
+          "layout": "List",
+          "style": "style_4",
+          "height": 472,
+          "width": 980,
+          "border_radius": 0,
+          "background_color": "#FFFFFFFF",
+          "margin": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "padding": {
+            "top": 0,
+            "bottom": 0,
+            "left": 0,
+            "right": 0
+          },
+          "background_image": null,
+          "heading": null,
+          "description": null,
+          "children": [
+            {
+              "src": "https://raw.githubusercontent.com/faiza2323/taqnix_images/refs/heads/main/beauty20.png",
+              "width": 397.4210526315789,
+              "height": 198,
+              "border_radius": 8,
+              "opacity": 1,
+              "heading": null,
+              "description": null,
+              "navigation_route": {
+                "route": "/gadgetGala",
+                "route_id": "9206"
+              },
+              "background_color": "#FFFFFFFF",
+              "padding": {
+                "top": 0.5,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "margin": {
+                "top": 0,
+                "bottom": 0,
+                "left": 0,
+                "right": 0
+              },
+              "box_shadow": null,
+              "gradient": null,
+              "box_fit": "cover"
+            }
+          ],
+          "animated_text_config": null,
+          "carousel_options": null,
+          "grid_options": {
+            "grid_delegate": "SliverGridDelegateWithFixedCrossAxisCount",
+            "cross_axis_count": 3,
+            "max_cross_axis_extent": 220,
+            "main_axis_spacing": 10,
+            "cross_axis_spacing": 10,
+            "child_aspect_ratio": 1,
+            "staggered_tile_layout": null,
+            "scroll_direction": "Axis.vertical",
+            "reverse": false,
+            "shrink_wrap": false,
+            "physics": "AlwaysScrollableScrollPhysics",
+            "padding": {
+              "top": 10,
+              "bottom": 10,
+              "left": 10,
+              "right": 10
+            }
+          },
+          "countdown_timer_config": {
+            "enabled": false,
+            "style": "style_star",
+            "background_color": "#FFE0F7FA",
+            "text_config": null,
+            "separator_color": "#FF006064",
+            "font_size": 14,
+            "border_radius": 7,
+            "padding": null,
+            "sale_date": "2026-12-31T23:59:59.000Z"
+          },
+          "child_conf": null,
+          "background_widget_conf": null,
+          "clipper_config": null,
+          "navigation_route": null
+        },
+        {
+          "unique_id": "list-shapewear-001",
+          "name": "",
+          "title": "Contour Confidence",
+          "block_type": "Banner",
+          "layout": "Grid",
+          "style": "style_3",
+          "height": 218,
+          "width": 900,
+          "border_radius": 8,
+          "background_color": "#FFFFFBFF",
+          "margin": {
+            "top": 2,
+            "bottom": 0,
+            "left": 1,
+            "right": 1
+          },
+          "padding": {
+            "top": 6,
+            "bottom": 0,
+            "left": 4,
+            "right": 4
+          },
+          "background_image": null,
+          "heading": null,
+          "description": null,
+          "children": [
+            {
+              "src": "https://raw.githubusercontent.com/faiza2323/taqnix_images/refs/heads/main/beauty6.png",
+              "width": 102.05263157894737,
+              "height": 93,
+              "border_radius": 0,
+              "opacity": 1,
+              "heading": null,
+              "description": null,
+              "navigation_route": {
+                "route": "/shapewear",
+                "route_id": "1001"
+              },
+              "background_color": "#FFFFFFFF",
+              "padding": {
+                "top": 8,
+                "bottom": 8,
+                "left": 8,
+                "right": 8
+              },
+              "margin": null,
+              "box_shadow": null,
+              "gradient": null,
+              "box_fit": "cover"
+            },
+            {
+              "src": "https://raw.githubusercontent.com/faiza2323/taqnix_images/refs/heads/main/beauty7.png",
+              "width": 266.6842105263158,
+              "height": 165,
+              "border_radius": 0,
+              "opacity": 1,
+              "heading": null,
+              "description": null,
+              "navigation_route": {
+                "route": "/shapewear",
+                "route_id": "1002"
+              },
+              "background_color": "#FFFFFFFF",
+              "padding": {
+                "top": 8,
+                "bottom": 8,
+                "left": 8,
+                "right": 8
+              },
+              "margin": {
+                "top": 0,
+                "bottom": 0,
+                "left": 5.5,
+                "right": 0
+              },
+              "box_shadow": null,
+              "gradient": null,
+              "box_fit": "cover"
+            },
+            {
+              "src": "https://raw.githubusercontent.com/faiza2323/taqnix_images/refs/heads/main/beauty8.png",
+              "width": 200,
+              "height": 200,
+              "border_radius": 0,
+              "opacity": 1,
+              "heading": null,
+              "description": null,
+              "navigation_route": {
+                "route": "/shapewear",
+                "route_id": "1003"
+              },
+              "background_color": "#FFFFFFFF",
+              "padding": {
+                "top": 8,
+                "bottom": 8,
+                "left": 8,
+                "right": 8
+              },
+              "margin": null,
+              "box_shadow": null,
+              "gradient": null,
+              "box_fit": "cover"
+            },
+            {
+              "src": "https://raw.githubusercontent.com/faiza2323/taqnix_images/refs/heads/main/beauty9.png",
+              "width": 200,
+              "height": 200,
+              "border_radius": 0,
+              "opacity": 1,
+              "heading": null,
+              "description": null,
+              "navigation_route": {
+                "route": "/shapewear",
+                "route_id": "1004"
+              },
+              "background_color": "#FFFFFFFF",
+              "padding": {
+                "top": 8,
+                "bottom": 8,
+                "left": 8,
+                "right": 8
+              },
+              "margin": null,
+              "box_shadow": null,
+              "gradient": null,
+              "box_fit": "cover"
+            }
+          ],
+          "animated_text_config": null,
+          "carousel_options": null,
+          "grid_options": {
+            "grid_delegate": "SliverGridDelegateWithFixedCrossAxisCount",
+            "cross_axis_count": 2,
+            "max_cross_axis_extent": 200,
+            "main_axis_spacing": 4,
+            "cross_axis_spacing": 4,
+            "child_aspect_ratio": 1,
+            "staggered_tile_layout": null,
+            "scroll_direction": "Axis.vertical",
+            "reverse": false,
+            "shrink_wrap": false,
+            "physics": "AlwaysScrollableScrollPhysics",
+            "padding": null
+          },
+          "countdown_timer_config": null,
+          "child_conf": null,
+          "background_widget_conf": null,
+          "clipper_config": null,
+          "navigation_route": null
         }
       ],
       "actions": [
@@ -4470,6 +5186,15 @@
           "navigation_route": {
             "route": "about",
             "route_id": "help"
+          },
+          "icon_color": "#FF000000"
+        },
+        {
+          "title": "Settings",
+          "icon": "CupertinoIcons.settings",
+          "navigation_route": {
+            "route": "settings",
+            "route_id": ""
           },
           "icon_color": "#FF000000"
         },
@@ -4682,7 +5407,7 @@
       "popular_searches": []
     },
     "app_bar_config": {
-      "layout": "gradient_background",
+      "layout": "background_image",
       "title_config": {
         "text": "Fashion Store",
         "title_style": {
@@ -4747,51 +5472,64 @@
         "widget": "Tabs",
         "tab_bar": {
           "enabled": true,
-          "is_scrollable": true,
-          "indicator_color": "#FF000000",
+          "is_scrollable": false,
+          "indicator_color": "#FFFFFFFF",
           "indicator_weight": 2,
           "indicator_size": "tab",
-          "label_color": "#FF000000",
-          "unselected_label_color": "#D0FFFFFF",
+          "label_color": "#FF202541",
+          "unselected_label_color": "#88FFFFFF",
           "tabs": [
             {
-              "label": "Summer Vacation",
-              "icon": "",
+              "label": "Pets Shop",
+              "icon": "PhosphorIconsBold.dog",
               "navigation_route": {
                 "route": "app_page",
-                "route_id": "3"
+                "route_id": "10"
               },
               "background_image": "",
-              "background_color": "#FFADE6FA",
-              "selected_item_color": "#FF000000",
-              "unselected_item_color": "#FFFFDEB3",
-              "foreground_color": "#FF55ACEE"
+              "background_color": "#FFABA9F2",
+              "selected_item_color": "#FF202541",
+              "unselected_item_color": "#FFFFFFB3",
+              "foreground_color": "#FFFFFFFF"
             },
             {
-              "label": "Electronics",
+              "label": "For mom",
               "icon": "",
               "navigation_route": {
                 "route": "app_page",
-                "route_id": "4"
+                "route_id": "12"
               },
               "background_image": "",
-              "background_color": "#D7E2E2E2",
-              "selected_item_color": "#FF121212",
-              "unselected_item_color": "#FF000000",
-              "foreground_color": "#FF55ACEE"
+              "background_color": "#FFFDD3F2",
+              "selected_item_color": "#FF202541",
+              "unselected_item_color": "#FFFFFFB3",
+              "foreground_color": "#FFFFFFFF"
             },
             {
-              "label": "Gourment",
+              "label": "Health",
               "icon": "",
               "navigation_route": {
                 "route": "app_page",
-                "route_id": "7"
+                "route_id": "36"
               },
               "background_image": "",
-              "background_color": "#FFA1C4E4",
-              "selected_item_color": "#FF121212",
-              "unselected_item_color": "#FF000000",
-              "foreground_color": "#FF55ACEE"
+              "background_color": "#FF52824F",
+              "selected_item_color": "#FF202541",
+              "unselected_item_color": "#FFFFFFB3",
+              "foreground_color": "#FFFFFFFF"
+            },
+            {
+              "label": "SUMMER ",
+              "icon": "",
+              "navigation_route": {
+                "route": "app_page",
+                "route_id": "37"
+              },
+              "background_image": "",
+              "background_color": "#FFD0F1FC",
+              "selected_item_color": "#FF202541",
+              "unselected_item_color": "#FFFFFFB3",
+              "foreground_color": "#FFFFFFFF"
             }
           ]
         }
@@ -4860,7 +5598,7 @@
       "useAppFont": true,
       "swapLegacyOnMaterial3": true,
       "useMaterial3ErrorColors": true,
-      "visualDensity": "<optimized out>#1cd1c(h: -1.0, v: -1.0)",
+      "visualDensity": "<optimized out>#34094(h: -1.0, v: -1.0)",
       "font_family": "Alegreya",
       "subThemesData": {
         "useTextTheme": true,
